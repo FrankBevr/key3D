@@ -6,7 +6,7 @@
   <p align="center">
     One Product, 3 Dimensions 
     <br />
-    <a href="" name="Figma">Figma</a>
+    <a href="https://www.figma.com/file/qRxZ8cGgMzSzkXVlJCWT7r/Untitled?type=design&node-id=0%3A1&mode=design&t=DcRb7pW8QcXjCKaM-1" name="Figma">Figma</a>
     ·
     <a href="">Youtube</a>
     ·
