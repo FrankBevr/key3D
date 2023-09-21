@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./Logo.jpg" alt="logo" width="80" height="80" />
+<img src="./logo.webp" alt="logo" width="80" height="80" />
 </div>
 
 <h3 align="center">Key3D</h3>
