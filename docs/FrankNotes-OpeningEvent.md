@@ -97,3 +97,72 @@ Q&A
 - short break.
 
 [Breakpoint](https://youtu.be/Q2QQ6G1vWuA?si=qanvasoKNUE0-ten&t=2869)
+
+Now Naoki Tanziawa
+
+- From Mitsubishi
+- Its a Urban Planing company
+- tokyo Torch, they develop it
+- On the left Torch will be complete in 5 years. Construction just started
+- Explore new buisnesses
+- Mitsubishi estate is the exactly name
+- Theme: DAO City in Tokyo
+- There is a video
+- The logo is great. Seems like Unreal twinmotion rendering. Not bad.
+- Disctric reborn, Tokibashi tower is the start 2021.
+- flexible work thingies.
+- 2028 Torch Tower
+- music makes everything better, so easy to follow
+- Work, play, Travel, live
+- communities, companies, nations, indivuils combined
+- make japan that exicets the world.
+- without music is gets harder
+- People are less connected in the city. thats the issue
+- Expection: The connection will happen in Tokyo torch.
+- he listend to mazda and mention it, so speaks quite freely
+- that was short 😅
+
+Q&A
+
+- What problem are you trying to solve.
+- The issue.Covid, the people are not connected. Expieriences in the office. Places have to be fun. No fun no people.
+- Meeting other people from other companies. Maybe even nice contacts.
+- Beauty of web3 is community.
+- Solving isolation of our current society
+- Torch tower is just for communication and easy of communication.
+- How many people?
+- Millions of vistors. Thats enough.
+- They favor outside expierience
+- What is the vision of the observaty?
+- It will be nice, i guess.
+- there is a music hall.
+- We wanna ideas for scalibilty to the city. The tower is for the city. City is in the focus
+- Employees work in the community, how?, existing tech is already available. What are you expecting of DAO?
+- Ideas should come from the communities not from them. Makes sense tbh
+- Meetings room can be provided by the people
+- we plan everything and offer everything
+- cafetaria not for just one but maybe for many
+- maybe some returns, maybe point system for contributor
+- Observatry, rental hotel, comercial store, ... a bunch of stuff ... expect torus
+- In front of Tokyo Station, Gateway to tokyo
+- Target of Tokyo Torch are office works?
+- A certain area is for office works. People should move.
+- Uhh tokyo station is aplace for office workers, it should attract more people
+- Can smaller companies are to attract as well?
+- Some space for enterprise, and maybe some space for start ups. Doesnt sound convincing at all😅
+- Feels really really cooperate
+- End
+
+Now some general stuff, I assume
+
+- [Check out the PDF](./slides.pdf)
+- Astar does the dev support.
+- Prize money is in astar token.
+- Some kind of Contact exchange via in person event.
+- Free beta version of Astar EVM Node RPC. Why is Shibuya not enough?
+- Most likely we use the EVM Pallet.
+- I wanna use ink!
+- Ahh they wanna use the zkEVM which is only avaialbe in the beta. Thats why beta.
+- Asking thruh discord, I will bullet them with question 😄
+
+[Breakpoint](https://youtu.be/Q2QQ6G1vWuA?si=DItYX6Tj5zrFdJgI&t=4838)
