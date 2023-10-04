@@ -166,3 +166,48 @@ Now some general stuff, I assume
 - Asking thruh discord, I will bullet them with question 😄
 
 [Breakpoint](https://youtu.be/Q2QQ6G1vWuA?si=DItYX6Tj5zrFdJgI&t=4838)
+
+- Now Bunzz
+- tips for smart contract dev
+- How to use decipher
+- how to use smart contract hub
+- there is ginco
+- There will be AMA for Blockchain Developer
+- There is solidty-jp, its the biggest japan solidty engnieering group
+- solidity-jp has a discord and some study sessions
+- organize hacks as well
+- there is unchain
+- they provide learning contant for hackathon participants
+- app.unchain.tech/learn
+- there is web3 foundation
+- 16 october from 17 to 18:30 jst time, its jst time!!!
+- there is ula
+- very long animals awards, they give 1k dollar.
+- using very loong animals charicatres
+- there is moon
+- its a studio, they have prices
+- born out mitsui & co, its a thingy maybe
+- moon orbit, moon spark, moon boost
+- they offer support of start ups
+- they do face to face events
+- they offer 8 week of learning
+- moon boost is a incubation program 3-6 months
+- telling your story, moon pitch event, inviation to spark
+- these are some events.
+- its a event to practive pitch
+- moonaward is is thingi, which get soemthing. its a nft most likely
+- there is skyland
+- its guy and its a investor
+- he visted 20 hacks, its called crypto land its a incubator
+- cryptobase shibuya from crypto base is a meetup
+- how to come up with ideas.
+- they bring people
+- that were the side events
+- there is a calender
+- [Picture of Calender](https://i.ibb.co/WHxqxxx/image.png)
+- all events are free
+- you can submit multiple ideas
+- both mazda and mitsubishi
+- or different i assume
+- it was on a saturday
+- lets meet again, thank youuu, it was fun.
