@@ -1,5 +1,7 @@
 # FrankNotes-OpeningEvent
 
+[YT Video](https://youtu.be/Q2QQ6G1vWuA?si=qanvasoKNUE0-ten&t=2869)
+
 - Venue is close to Tokyo Station
 - Its called Tokyo Torchy
 - Torch Tower is completed in 2027. It will be the tallest.
@@ -78,3 +80,20 @@ Q&A
 - I think the middle way is a good one.
 - Do we have Data?
 - No data is provided, mock that shit is my conclusion.
+- Regulation of Tokens?
+- no answer.
+- uhh a tough question, How you got intrested in that area. Not really tough
+- 1. Can we distrubed that money which is created
+- 2. DAO thinking is wild, likes it
+- Global Buisness, challenge of japan. What are challenge in the US regarding mobility
+- Safety(not really), ?? that was not really a answer, but ok^^
+- Can be integrated in other automative.
+- It don't have to be automotive at all. It allows a bigger market
+- Ok the last one.
+- What came up with the internal hack?
+- Overlap is ok, Conculsion was it has to be fun. Get it its honest, not just marketing.
+- Lets close.
+- Last words, think broadly. Think out of the box. think freely.
+- short break.
+
+[Breakpoint](https://youtu.be/Q2QQ6G1vWuA?si=qanvasoKNUE0-ten&t=2869)
