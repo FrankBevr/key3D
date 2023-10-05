@@ -129,3 +129,55 @@ Show in the past, vertical farming, Solar, manufacotring, ...
 
 1. Gargabe DAO - Collect Garbage
 2. Socks on Steroids - Show your feet, let it shine.
+
+#### Franks Thoughts:
+
+> ⚠️ Yeah, its a try. Not convinced about the phrasing. But Tokyo DAO feels not bad.
+
+Personally I think its good if use the DAO Idea.
+
+**Pitch it like DAO is a Club.**
+
+Hola everyone 🌤️
+
+We are Tokyo DAO
+We are a group of 3. Sona, our japenese technical writer, Frank our web3 developer, Me, Josiah buisness dev and founder of DeStore.
+
+Lets give a introduction:
+Every Society has many clubs.  
+A club is a group of people which come together with a common purpose.
+
+- Football Club, plays football together.
+- Volleyball Club, play volleyball together.
+- Cooking Club, cook togehter, learn from each other.
+- Osaka Club, people who love Osaka.
+- Book Club, share their latest readings.
+- Language Club, exchange languages.
+
+If the Tokio Torch wanna support Communities who light this place up.
+Web3 brings the right philosophy on the table to make it happen.
+
+To make it happen, we created a DAO Builder.
+Tokyo DAO. Inspired by Prezel DAO from Munich.
+
+Tokyo DAO allows every person to create their own DAO for their Communities.  
+The complexity would break the roof, so we start with one DAO, which Tokyo DAO could create.
+
+We created Ramen DAO.
+For all Ramen Lovers and Ramen Shop owners / providers.  
+Lets start with our build so far.
+
+... Prototype ...
+
+Thats our little Prototype so far.
+
+What we imagine for the Future is the following.
+
+... Big Big Inspirational Speech ...
+
+But for now, we have our working rectancles and are really happy to pitch it to you.
+Thanks for listening.
+
+Cheers 💃
+
+_Note: w.i.p. Doesn't make me happy yet._
