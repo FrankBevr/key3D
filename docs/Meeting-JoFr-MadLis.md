@@ -71,3 +71,17 @@ OUR VISION:
 ### New Design Document
 
 [See here](./Software-Design-3.md)
+
+### More Notes
+
+Nested Ramen NFT / Burger NFT or ???
+
+Product needs to defined by the Brand Holder.
+
+Abstraction NFT
+
+With Parent Smart Contract,  
+people are allowed to create their own brand NFT
+
+Principle Product.
+per finical year. timebased / product based.
