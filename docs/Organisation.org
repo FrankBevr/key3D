@@ -1,0 +1,32 @@
+
+* Organisation
+** Basic Setup
+:LOGBOOK:
+CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
+:END:
+- [X] Chunk Menu Card down in small sizeable chunks of work
+- [ ] Add Backend
+  - [ ] Add some sort of Backend API just in case
+- [ ] Add Smart Contract
+  - [ ] Get something running on zkEVM
+  - [ ] Scratch a stupid contract out
+  - [ ] Test it somewhere ( Remix, local,  )
+  - [ ] Call it somehow
+  - [ ] Deploy it sucessfully somewhere
+  - [ ] Deploy it on zk Astar
+- [ ] Rough Frontend
+  - [ ] Display something on page
+  - [ ] Add ethers
+  - [ ] Connect to a chain via ethers
+  - [ ] Get Blocknumber via ethers
+  - [ ] Display Blocknumber
+  - [ ] Display Blocknumber subscribely
+  - [ ] Get Something from Contract
+  - [ ] Display something from Contract
+  - [ ] Call smart contract via ehterscan?!?
+  - [ ] Call Smart Contract via ethers
+  - [ ] Add button, call on Button Click
+  - [ ] Declare vicotry for now
+- [ ] Get a 3D Model of Ramen from somwhere
+- [ ] UI/UX
+  - [ ] Check Figma, add cleanup if necessary
