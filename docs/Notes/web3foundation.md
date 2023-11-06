@@ -149,7 +149,7 @@ lets built one
 - if wanna build own blockahins use substrate node template
 - its really customizeable
 
-- [There is a bunch of stuff](github.com/poladot/polkadot-sdk)
+- [There is a bunch of stuff](https://github.com/poladot/polkadot-sdk)
 - in frrames folders i can add it directly
 
 - there is nice [thingy](https://i.ibb.co/pRw3gRX/image.png)
