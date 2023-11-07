@@ -98,3 +98,18 @@
 - std math
 - `uint256 ten = stdMath.abc(-10)`
 - There is an [Refrence Sheet](https://book.getfoundry.sh/reference/forge-std/)
+
+### Traces
+
+- forge can prduce traces
+- via `-vvv`
+- each trace can have subtraces
+- it has colors
+- green: not rever
+- red: revert
+- blue cheatcode
+- cyan emiited
+- yellow deploy
+- there is gas
+- its doesn sum up the gas usage
+- left pointing error indicates where its comming from
