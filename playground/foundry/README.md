@@ -1,7 +1,6 @@
-### Recap Foundry
+# Recap Foundry
 
-
-#### Basics
+### Basics
 
 - `curl -L https://foundry.paradigm.xyz | bash`
 - Clean up git or do something diffrent, which i dont know yet
@@ -80,3 +79,22 @@
 - `forge test`
 - `expectEmit` via `vm.expectEmit(true, true, false, true)` in `test_ExpectEmit()` and `test_ExpectEmit_DoNotCheckData()`
 - There is a [Cheatcode Reference](https://book.getfoundry.sh/cheatcodes/)
+
+### Forge Standard Library
+
+- its a library
+- forge std is the prefred way
+- `vm.sol`, `console.sol`, `Script.sol`, `Test.sol`
+- use `is Test` to inherited test
+- vm.startPrank(alice) 
+- import via `import "forge-std/Vm.sol` or `import "forge-std/console.sol"` 
+- `import "forge-std/console2.sol"` traceable but not compatible with hardhat
+- six std libardy, Std Logs, Std  Assertions, Std Cheats, std errors, std storage, std math
+- std cheats via `hoax(alice, 100, ether)`
+- std errors combine with expectRevert
+- `vm.expectRevert(stdError.arithmeticError)`
+- std storage
+- stdstore.target(address(game)).sig(score.selector).checked_write(10)
+- std math
+- `uint256 ten = stdMath.abc(-10)`
+- There is an [Refrence Sheet](https://book.getfoundry.sh/reference/forge-std/)
