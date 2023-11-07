@@ -52,3 +52,9 @@
        ```toml
        solc = "0.8.17"
        ```
+
+### Writing Tests
+- Keyword: `setup()`, `test_asdfasdf()`, `testFail_asdfasdf`
+- Good Pratice: `test_CannotSubtract43()`
+- Note: must have external or public, not internal or private
+- shared setup via `is` Inheritance

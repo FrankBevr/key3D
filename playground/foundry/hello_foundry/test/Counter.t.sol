@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import {Test, console2} from "forge-std/Test.sol";
+import {Test, console2, stdError } from "forge-std/Test.sol";
 import {Counter} from "../src/Counter.sol";
 
 contract CounterTest is Test {
@@ -22,3 +22,48 @@ contract CounterTest is Test {
         assertEq(counter.number(), x);
     }
 }
+
+contract ContractBTest is Test {
+    uint256 testNumber;
+
+    function setUp() public {
+        testNumber = 42;
+    }
+
+    function test_NumberIs42() public {
+        assertEq(testNumber, 42);
+    }
+
+    function testFail_Subtract43() public {
+        testNumber -= 43;
+    }
+
+    function test_CannotSubtract43() public {
+        vm.expectRevert(stdError.arithmeticError);
+        testNumber -= 43;
+    }
+}
+
+
+/****************
+ * SHARED SETUP *
+ ****************/
+// abstract contract HelperContract {
+//     address constant IMPORTANT_ADDRESS = 0x543d...;
+//     SomeContract someContract;
+//     constructor() {...}
+// }
+
+// contract MyContractTest is Test, HelperContract {
+//     function setUp() public {
+//         someContract = new SomeContract(0, IMPORTANT_ADDRESS);
+//         ...
+//     }
+// }
+
+// contract MyOtherContractTest is Test, HelperContract {
+//     function setUp() public {
+//         someContract = new SomeContract(1000, IMPORTANT_ADDRESS);
+//         ...
+//     }
+// }
