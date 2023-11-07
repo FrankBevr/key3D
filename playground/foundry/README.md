@@ -142,4 +142,13 @@
 - There is `roll`
 - forkin mode works like
 - ??? over my head :D
-- Example:
+- Example: see in folders
+
+### Fuzz Testin
+
+- property testing
+- testing withdraw
+- failed on high value amounts
+- there is `vm.assume(amount > 0.1 ether)`
+- it runs multiple time, i guess
+- there is a config via config
