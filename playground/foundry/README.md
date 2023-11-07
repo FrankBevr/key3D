@@ -58,3 +58,25 @@
 - Good Pratice: `test_CannotSubtract43()`
 - Note: must have external or public, not internal or private
 - shared setup via `is` Inheritance
+
+### Cheatcode
+- the allow to manipulate state
+- access via `vm`
+- example only callable by owner
+- `isTest` is the inherted TestSuite
+- `testFail_IncrementAsNotOwner()` via `vm.prank(address(0))`
+- `forge test`
+- `testFail` is antipattern
+- `forge tes -vvv --match-test testFail_IncrementAsNotOwner`
+- via `expectRevert`
+   ```sol
+    // Notice that we replaced `testFail` with `test`
+    function test_RevertWhen_CallerIsNotOwner() public {
+        vm.expectRevert(Unauthorized.selector);
+        vm.prank(address(0));
+        upOnly.increment();
+    }
+   ```
+- `forge test`
+- `expectEmit` via `vm.expectEmit(true, true, false, true)` in `test_ExpectEmit()` and `test_ExpectEmit_DoNotCheckData()`
+- There is a [Cheatcode Reference](https://book.getfoundry.sh/cheatcodes/)
