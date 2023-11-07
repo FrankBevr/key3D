@@ -2,6 +2,7 @@
 * Organisation
 ** Basic Setup
 :LOGBOOK:
+CLOCK: [2023-11-07 Tue 08:02]
 CLOCK: [2023-11-07 Tue 07:01]--[2023-11-07 Tue 07:21] =>  0:20
 CLOCK: [2023-11-06 Mon 22:14]--[2023-11-06 Mon 22:36] =>  0:22
 CLOCK: [2023-11-06 Mon 21:35]--[2023-11-06 Mon 22:06] =>  0:31
@@ -22,12 +23,13 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
 - [ ] Add Backend
   - [ ] Add some sort of Backend API just in case
 - [ ] Add Smart Contract
-  - [ ] Get something running on zkEVM
+  - [ ] intilaise foundry
   - [ ] Scratch a stupid contract out
   - [ ] Test it somewhere ( Remix, local,  )
   - [ ] Call it somehow
   - [ ] Deploy it sucessfully somewhere
   - [ ] Deploy it on zk Astar
+  - [ ] Get something running on zkEVM
 - [ ] Rough Frontend
   - [ ] Display something on page
   - [ ] Add ethers
