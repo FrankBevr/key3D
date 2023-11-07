@@ -113,3 +113,33 @@
 - there is gas
 - its doesn sum up the gas usage
 - left pointing error indicates where its comming from
+
+### Fork Testing
+
+- forge supports testin
+- 2 modes
+- forking mode
+- forking cheatcodes
+- forking mode `forge test --fork-url <your_rpc_url>`
+- things are changing
+  - block_number
+  - chain_id
+  - gas_limit
+  - gas_price
+  - block_base_fee_per_gas
+  - block_coinbase
+  - block_timestamp
+  - block_difficulty
+- `forge test --fork-url <your_rpc_url> --fork-block-number 1 `
+- caching and clean via `forge clean`
+- forking with ethersan
+- `forge test --fork-url <your_rpc_url> --etherscan-api-key <your_etherscan_api_key> `
+- Forking via cheatcode
+- all isolated, all use their evm
+- `createFork` is the thingy
+- `selectFork` is a onliner
+- only one active at the time
+- There is `roll`
+- forkin mode works like
+- ??? over my head :D
+- Example:
