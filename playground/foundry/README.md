@@ -152,3 +152,45 @@
 - there is `vm.assume(amount > 0.1 ether)`
 - it runs multiple time, i guess
 - there is a config via config
+
+### Invariant Testing
+- its powerful
+- randomize input of testing
+- there are two dimesnion, runds and depth
+- runs number of runs
+- depts number of function calls
+- `invariant` to declare that kind of that
+- there are configs avaialbe
+- defining variants, xy = always X, sum of all token is the same
+- direct assertion
+- ghost variable assertions
+- deoptimizing, compare thingies
+- conditional variants
+- invariants if something then do more invariants if not then less
+- if condition true than do not or do following
+- via setup possible 
+- invariant targets
+- target contract
+- target senders
+- target selectors
+- target artifacts
+- target artifacts selectors
+- targetSelectors | targetArtifactSelectors > selcudeContracts | excludeArticats > target Contrracts | target ARtificats
+- Invariant test helper functions
+- in forge std
+- ExcludedContract,excludeSender, excludeArtifact,targetArtifacts,targetArtifactSelecetor, targetArtifactSelector, targetContract, targetSelector, targetSender,
+- target contract setup
+- 1. manually, 2. automaticall, 3. exclude contract
+- example
+- hadler based testing for more complex
+- example
+- they chunk into storage, constructor, external function, public view functions
+- target contract uses handler
+- hanlder betweens protocol and foundry and foundry get invariants
+- yikes a bit over my head again
+- function level asserions
+- bounded/unbouded Functions
+- unbounded works kind of inheritance
+- actor managment
+- ghosted as well 
+- I dont get the example they wanna not run. Feels like something where i spend a day on.
