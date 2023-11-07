@@ -2,9 +2,23 @@
 * Organisation
 ** Basic Setup
 :LOGBOOK:
+CLOCK: [2023-11-07 Tue 07:01]--[2023-11-07 Tue 07:21] =>  0:20
+CLOCK: [2023-11-06 Mon 22:14]--[2023-11-06 Mon 22:36] =>  0:22
+CLOCK: [2023-11-06 Mon 21:35]--[2023-11-06 Mon 22:06] =>  0:31
 CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
 :END:
 - [X] Chunk Menu Card down in small sizeable chunks of work
+- [X] reorg docs
+  - [X] initialise vitepress
+    - [X] added config
+    - [X] add index.md
+    - [X] add .gitignore
+    - [X] add markdown checkmark support
+  - [X] add Joruney Folder
+  - [X] add Monday.md
+  - [X] add to config
+  - [X] deploy on key3d.surge.sh
+  - [X] write emails
 - [ ] Add Backend
   - [ ] Add some sort of Backend API just in case
 - [ ] Add Smart Contract
