@@ -22,3 +22,33 @@
     ```
 - `forge update lib/solmate`
 - `forge remove solmate`
+
+### Tests
+
+- `forge test`
+- `forge test --match-contract ComplicatedContractTest --match-test testDeposit`
+- `forge test --match-path test/ContractB.t.sol`
+- `forge test --watch --run-all`
+
+### Code Setup
+
+- install solidty as exten from juan blanc
+- add .vscode/settings.json just to be specific
+- insert the following
+   - `./.vscode/settings.json`
+      ```json
+        {
+        "solidity.packageDefaultDependenciesContractsDirectory": "src",
+        "solidity.packageDefaultDependenciesDirectory": "lib",
+            "editor.formatOnSave": true,
+        "[solidity]": {
+            "editor.defaultFormatter": "JuanBlanco.solidity" 
+        },
+        "solidity.formatter": "forge",
+        "solidity.compileUsingRemoteVersion": "v0.8.17"
+        }
+      ```
+    - `./foundry.toml`
+       ```toml
+       solc = "0.8.17"
+       ```
