@@ -261,5 +261,10 @@
 - there are known issue
 
 ### Gas Tracking
+- forge can do gastracking
+- tools are gasreports, gas snapshots,
+- they differ
+- gasreports use tracing more granular less speed
+- snapshot are fast but less acurate
 
 
