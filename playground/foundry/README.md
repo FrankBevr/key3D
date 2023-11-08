@@ -342,4 +342,8 @@
    ```
 
 ### Overview Chisel
-
+- chisel is a repl
+- quickly test things
+- even with forks it seems, wild
+- !help to see what is available
+- There is a [reference](https://book.getfoundry.sh/reference/chisel/)
