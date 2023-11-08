@@ -284,3 +284,16 @@
 
 ### Gas Snapshot
 
+- forge can generate snapshot. 
+- via `forge snapshot` create file called `./.gas-snapshot`
+- line by line output
+- there is filtering
+- via `forge snapshot --snap <FILE_NAME>`
+- --desc, sort results
+- --min, filters with min value
+- --max, filters with min value
+- --diff or --check are availabe
+- `forge snapshot --diff .gas-snapshot2`
+- --check does the same it seems
+
+### Debugger
