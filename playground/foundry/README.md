@@ -226,3 +226,40 @@
 - there is standardized testing against reference data
 - there is differentail testing grdual dutch actuions 
 - I will not go into depth on it. still abit over my head.
+
+### Deploying
+- Forge can deploy
+- we have to provide things
+- `forge create --rpc-url <your_rpc_url> --private-key <your_private_key> src/MyContract.sol:MyContract`
+- with etherscan and constructor
+   ```sh
+   forge create --rpc-url <your_rpc_url> \
+    --constructor-args "ForgeUSD" "FUSD" 18 1000000000000000000000 \
+    --private-key <your_private_key> \
+    --etherscan-api-key <your_etherscan_api_key> \
+    --verify \
+    src/MyToken.sol:MyToken
+   ````
+- verify prexisting
+- `forge verify-contract` needs `contract addresss`, `contract name`, `ehterscan api key`, `chain id`
+- an example
+   ```sh
+   forge create --rpc-url <your_rpc_url> \
+    --constructor-args "ForgeUSD" "FUSD" 18 1000000000000000000000 \
+    --private-key <your_private_key> \
+    --etherscan-api-key <your_etherscan_api_key> \
+    --verify \
+    src/MyToken.sol:MyToken
+    ```
+- or via non `--watch`
+   ```sh
+   forge verify-check --chain-id 11155111 <GUID> <your_etherscan_api_key>
+   ```
+- tipp: cast can help to code
+- there is troubleshoot
+- there are problem erros, which say something
+- there are known issue
+
+### Gas Tracking
+
+
