@@ -330,3 +330,16 @@
 - There are [refrence](https://book.getfoundry.sh/reference/cast/)
 
 ### Anvil Overview
+
+- anvil is a local testnet, like ganache
+- part of foundry sweet
+- foundry sweet is forge, cast, chisel
+- basics 
+   ```sh
+   anvil -a, --accounts <ACCOUNTS>
+   anvil --hardfork <HARDFORK>
+   anvil  -p, --port <PORT>
+   ```
+
+### Overview Chisel
+
