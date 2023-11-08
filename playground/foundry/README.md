@@ -194,3 +194,35 @@
 - actor managment
 - ghosted as well 
 - I dont get the example they wanna not run. Feels like something where i spend a day on.
+
+### Differnetail Testing
+
+- testing function against function
+- f1(x) = f2(x) , basically
+- differinal fuzzing, does the same but uses many input
+- note: floating points special
+- compare upgraded, testding known reference, confirm compatibile
+- Primer ffi cheatcode
+   ```sol
+   import "forge-std/Test.sol";
+    contract TestContract is Test {
+
+    function testMyFFI () public {
+        string[] memory cmds = new string[](2);
+        cmds[0] = "cat";
+        cmds[1] = "address.txt"; // assume contains abi-encoded address.
+        bytes memory result = vm.ffi(cmds);
+        address loadedAddress = abi.decode(result, (address));
+        // Do something with the address
+        // ...
+    }
+   }
+   ```
+- Example: differntial testing Merkel Tree
+- Murky is available, merkle tree thingy
+- it uses scripts folder
+- sometimes ffi is not needed
+- there is deffierntial testing agains known edge case
+- there is standardized testing against reference data
+- there is differentail testing grdual dutch actuions 
+- I will not go into depth on it. still abit over my head.
