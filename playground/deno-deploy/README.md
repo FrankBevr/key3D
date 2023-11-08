@@ -50,3 +50,51 @@ Full Websites
 
 - ryan dhal blog
 - chatrooms (intersting for games)
+
+### Playground
+
+- good for small thingies
+- playgrounds are perfomred
+
+- creating a playground (just press button)
+- playground editor
+- editor has editor and a preview
+- ave and deploy and donce
+- it allows switch between js, jsx ,ts, tsx
+- makin public is avaialbe
+- export to github is available
+- after export, not availabe in deploy editor
+
+### Deploy with GitHub Integration
+
+- via deployctl, there is a page for more
+- easiest via playground
+
+### CI GithubAction
+
+- actually i dont care about that section
+- automatic is the best it seems
+- do thingies
+- add in .github/workflows/deploy.yml
+
+### deployctl on cli
+
+- we can install it
+- deploy a local scirpt
+  - `deployctl deploy --project=helloworld main.ts`
+- deploy remote script
+  - `deployctl deploy --project=helloworld https://deno.com/examples/hello.js`
+- deploy remote no static
+  - `deployctl deploy --project=helloworld --no-static https://deno.com/examples/hello.js`
+- deploy and ignore node
+  - `deployctl deploy --project=helloworld --exclude=node_modules main.tsx`
+
+- for local thingies use deno itself
+  - like `$ deno run --allow-net=:8000 https://deno.com/examples/hello.js`
+
+### Others
+
+- there is a thingie about regions
+- there is a thingie about pricing
+
+### Deployments
