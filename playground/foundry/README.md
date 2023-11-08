@@ -318,3 +318,15 @@
 - ' a-z via `vm.breakpoint`
 
 ### Cast
+
+- cast is a clie tool
+- `cast <something>`
+- f.e. `cast call 0x6b175474e89094c44da98b954eedeac495271d0f "totalSupply()(uint256)" --rpc-url https://eth-mainnet.alchemyapi.io/v2/Lc7oIGYeL_QvInzI0Wiu_pOZZDEKBrdf 8603853182003814300330472690`
+- its possible to provide decoded values
+- use cast to sending message between anvil accounts
+   ```sh
+   cast send --private-key <Your Private Key> 0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc $(cast from-utf8 "hello world") --rpc-url http://127.0.0.1:8545/
+   ```
+- There are [refrence](https://book.getfoundry.sh/reference/cast/)
+
+### Anvil Overview
