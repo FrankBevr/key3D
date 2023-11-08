@@ -407,3 +407,106 @@
 - configer Harhdhat userConfig
 - There is a harhdat project, how to use foundry
 - It takes a while, but 4 steps in general
+
+### Best Pratices
+
+- forge fmt is amazing
+
+#### General Contract Guidance
+- always use named import
+- forge-std/ then test/ then script then src
+- sort it by name
+- aboslute path can be good, relative can be good
+- there is a ignore option for coppyin libary
+- use // forgefmt:disable-x
+- aditional
+   - descripte variable names
+   - limit number of active variables
+   - no redudant code
+   - early exit as much as possible
+   - related code group together
+   - delete unused code
+
+#### Tests
+
+- MyContract.sol has test MyContract.t.sol
+- MyScript.s.sol has test MyScript.t.sol
+- no assert in setup
+- two ways of organize tests, 1 group by describe, 2. group by test
+- ..
+- ...
+- test_description for stand
+- testFuzz_descr for fuzz
+- testRevertIFWhenCondition for recert 
+- testFortDescr for fork test
+- testForkFuz_RevertIfWhenCondi for fuzz test that forks and expect a recevet
+- ..
+- ..
+- ..
+- Write Invarant test
+
+- There are fork test
+- use tehm
+- mock are requred 
+- they are slow, but they cache
+- github ci will cache rpc thingies
+- quickly hit rate limits, use multicall
+- srturcte test
+
+- do not use forl-ul flag
+- define rpc_endpoints
+- use forking cheatcode
+- alsways pin to block 
+  
+- test harnets are a thingy
+- internal function should habe somethin external
+- but why?
+- private functions for test convert internal
+- use script
+
+- workaround funtioncs
+  
+- Best pratices
+- there is a talk
+- optimize for well thought out tests
+- write positive and negative
+- write integration test for entire features
+- wirte fork test
+
+- traint analysis
+  
+#### Scripts
+- stick wrih run as teh default function
+- there are internal and private thingies
+- tests your scripts
+- carefully audit which transaction are broadcast
+- watch out frontrunning
+- some examples 
+   ```sol
+   function readInput(string memory input) internal returns (string memory) {
+    string memory inputDir = string.concat(vm.projectRoot(), "/script/input/");
+    string memory chainDir = string.concat(vm.toString(block.chainid), "/");
+    string memory file = string.concat(input, ".json");
+    return vm.readFile(string.concat(inputDir, chainDir, file));
+  }
+  ```
+
+- private key management
+- use a hrdaware wallet
+- use a private key directioly
+   - hardwware better
+   - only enough funds 
+   - or use --private-key
+- there is cast wallet import
+- when scripts
+- use seperate wallet
+- comprised is everything
+- don't assume
+- never expose mneomic
+  
+- comments
+- use natspac
+- there is plantuml
+- structre with markdown
+
+- More ressources are available
