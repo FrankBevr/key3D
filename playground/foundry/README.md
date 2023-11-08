@@ -376,3 +376,34 @@
 
 ### Automcompletion
 - availabel via zsh, fish, bash, 
+
+### Static Analyer
+- there is slither
+- its a static analyer via `slither .`
+- needs remapping
+- needs same version use `solc select`
+- there is config file `slither --config-file <path>/file.config.json .`
+- there is mythrill, does the same
+- needs remapping as well
+- needs nightly in rust
+- install via pip
+- use via `myth analyze src/Contract.sol --solc-json mythril.config.json`
+
+### Hardhat
+
+- possible to use hardhat
+- hardhat uses node, foundry uses lib
+- there is hardhat preprocessor
+- foundry uses this and put is in remappings.txt
+- Here an [example](https://github.com/foundry-rs/hardhat-foundry-template)
+- npm init
+- npm install --save-dev hardhat
+- npx hardhat
+- forge rempappings > remappings.txt
+- npm install --save-dev hardhat-preprocessor
+- add "hardhat-preprocessor in hardhat config
+- ensure import fs from "fs"
+- then add files
+- configer Harhdhat userConfig
+- There is a harhdat project, how to use foundry
+- It takes a while, but 4 steps in general
