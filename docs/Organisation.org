@@ -1,8 +1,20 @@
+#+COLUMNS: %50ITEM(Task) %7TODO %14CLOCKSUM(Clock)
 
 * Organisation
-** Basic Setup
+** TODO [#A] Basic Setup [2/7]
 :LOGBOOK:
-CLOCK: [2023-11-07 Tue 08:02]
+CLOCK: [2023-11-08 Wed 07:55]
+CLOCK: [2023-11-08 Wed 07:01]--[2023-11-08 Wed 07:52] =>  0:51
+CLOCK: [2023-11-07 Tue 18:01]--[2023-11-07 Tue 20:07] =>  2:06
+CLOCK: [2023-11-07 Tue 17:17]--[2023-11-07 Tue 17:58] =>  0:41
+CLOCK: [2023-11-07 Tue 16:24]--[2023-11-07 Tue 16:49] =>  0:25
+CLOCK: [2023-11-07 Tue 11:43]--[2023-11-07 Tue 11:58] =>  0:15
+CLOCK: [2023-11-07 Tue 11:22]--[2023-11-07 Tue 11:40] =>  0:18
+CLOCK: [2023-11-07 Tue 10:48]--[2023-11-07 Tue 11:12] =>  0:24
+CLOCK: [2023-11-07 Tue 10:15]--[2023-11-07 Tue 10:43] =>  0:28
+CLOCK: [2023-11-07 Tue 09:46]--[2023-11-07 Tue 10:03] =>  0:17
+CLOCK: [2023-11-07 Tue 09:20]--[2023-11-07 Tue 09:43] =>  0:23
+CLOCK: [2023-11-07 Tue 08:02]--[2023-11-07 Tue 08:33] =>  0:31
 CLOCK: [2023-11-07 Tue 07:01]--[2023-11-07 Tue 07:21] =>  0:20
 CLOCK: [2023-11-06 Mon 22:14]--[2023-11-06 Mon 22:36] =>  0:22
 CLOCK: [2023-11-06 Mon 21:35]--[2023-11-06 Mon 22:06] =>  0:31
@@ -22,8 +34,28 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] write emails
 - [ ] Add Backend
   - [ ] Add some sort of Backend API just in case
-- [ ] Add Smart Contract
-  - [ ] intilaise foundry
+- [-] Add Smart Contract
+  - [X] intilaise foundry
+  - [X] init playground foundry
+    - [X] add Basics
+    - [X] set up Code Editor for foundry
+    - [X] add test
+    - [X] add writing tests
+    - [X] add cheatcode
+    - [X] add forge standard library
+    - [X] add traces
+    - [X] add fork testing
+    - [X] add advanced Testing
+      - [X] fuzz testing
+      - [X] Invariant Testing
+        - [X] read that thing
+        - [X] code it
+  - [X] Dach Call
+  - [X] Vali with saro check
+  - [X] Write Tuesday.md
+  - [X] config index.md
+  - [X] add favicon.ico
+  - [ ] redeploy
   - [ ] Scratch a stupid contract out
   - [ ] Test it somewhere ( Remix, local,  )
   - [ ] Call it somehow

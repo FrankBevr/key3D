@@ -1,6 +1,7 @@
 import { taskLists } from '@hedgedoc/markdown-it-plugins'
 
 export default {
+  head: [['link', { rel: 'icon', href: '/assets/favicon.ico' }]],
   title: "Key3d",
   description: "3D Ramen DAO",
   themeConfig: {
@@ -11,23 +12,23 @@ export default {
         text: "Journey",
         items: [
           { text: "Monday", link: "/Journey/Monday" },
+          { text: "Tuesday", link: "/Journey/Tuesday" },
         ],
       },
       {
         text: "Notes",
         items: [
-          { text: "Launch Event", link: "/Notes/Notes-LaunchEvent" },
+          { text: "Launch Event", link: "/Notes/FrankNotes-OpeningEvent" },
           { text: "Software Design", link: "/Notes/Software-Design" },
-          { text: "Get Block", link: "/Notes/Archy_GetBlock" },
-          { text: "AZero", link: "/Notes/dennis_integrate_azero_id" },
-          { text: "Ink Championship", link: "/Notes/german_ink_championship" },
-          { text: "Safe and Robust Ink", link: "/Notes/piotr_safeAndRobuts" },
-          {
-            text: "Ink Storage",
-            link: "/Notes/uladzislau_deep_dive_ink_storage",
-          },
-          { text: "Org Recap", link: "/Notes/org_recap" },
-          { text: "Zustand Notes", link: "/Notes/Zustand" },
+          { text: "Software Design 2", link: "/Notes/Software-Design-2" },
+          { text: "Software Design 3", link: "/Notes/Software-Design-3" },
+          { text: "Frank Ideation", link: "/Notes/FrankIdeation" },
+          { text: "Meeting Notes Astar", link: "/Notes/Meeting-Astar-Us" },
+          { text: "Meeting Notes Frank Josiah", link: "Notes/Meeting-JoFr-AusGer" },
+          { text: "Meeting Notes Frank Josiah 2", link: "Notes/Meeting-JoFr-MadLis" },
+          { text: "Web3 Foundation Workshop", link: "Notes/web3foundation" },
+          { text: "Braindump Figma", link: "Notes/Todo-Figma" },
+          { text: "Random", link: "Notes/notes" },
         ],
       },
     ],
