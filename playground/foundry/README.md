@@ -267,4 +267,20 @@
 - gasreports use tracing more granular less speed
 - snapshot are fast but less acurate
 
+### Gas Reports
+- add in foundry.toml
+    ```toml
+    gas_reports = ["MyContract", "MyContractFactory"]
+    ```
+    ```toml
+    gas_reports = ["*"]
+    ```
+- use via `forge test --gas-report`
+- then it spits out a table
+- its possible to ignore thingsie via
+   ```tom
+   gas_reports_ignore = ["Example"]
+   ```
+
+### Gas Snapshot
 
