@@ -366,3 +366,13 @@
 - possible via git
 - possible via travie
 - possible via gitlab
+
+### Integrate with VS Code
+- maybe tweak it
+- `forge remapping > remapping.txt` could be usefull
+- add thingies in `.vscode/settings.json`
+- add formatter in `.vscode/settings.json`
+- add solc version in `.vscode/settings.json`
+
+### Automcompletion
+- availabel via zsh, fish, bash, 
