@@ -33,3 +33,20 @@ Project Name: posh-gnu-88\
 URL: https://posh-gnu-88.deno.dev/
 
 ### Use Cases
+
+- Popular, middleware api server and website
+
+middleware
+
+- do a bits of code between request
+  - setting a cookie
+  - change of content based on geolocation
+
+API Server
+
+- on the edge out of the box
+
+Full Websites
+
+- ryan dhal blog
+- chatrooms (intersting for games)
