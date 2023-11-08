@@ -297,3 +297,24 @@
 - --check does the same it seems
 
 ### Debugger
+
+- there is interactive debugger
+- via `forge test --debug $FUNC`
+- via `forge test --debug "testSomething()"`
+- or `forge debug --debug $FILE --sig $FUNC`
+- or `forge debug --debug src/SomeContract.sol --sig "myFunc(uint256,string)" 123 "hello"`
+- if debug runs 4 qudrants
+- quad 1 opbcode, quad 2 current stakc, 3 source view, 4 current memory
+- red = about to written
+- green = were written
+- cyan = are being read
+- there is navigation
+- vim like
+- g beignning transaction
+- c move previous call
+- C Move next call
+- a previous jump
+- s next jump
+- ' a-z via `vm.breakpoint`
+
+### Cast
