@@ -347,3 +347,22 @@
 - even with forks it seems, wild
 - !help to see what is available
 - There is a [reference](https://book.getfoundry.sh/reference/chisel/)
+
+### Configuring
+- can be named
+- example
+   ```toml
+   [profile.default]
+   optimizer = true
+   optimizer_runs = 20_000
+
+   [profile.ci]
+   verbosity = 4
+   ```toml
+- use via `FOUNDRY_PROFILE` .env value
+- There is a [refrence](https://book.getfoundry.sh/reference/config/)
+
+### CI 
+- possible via git
+- possible via travie
+- possible via gitlab
