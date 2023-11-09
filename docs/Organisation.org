@@ -3,7 +3,11 @@
 * Organisation
 ** TODO [#A] Basic Setup [2/7]
 :LOGBOOK:
-CLOCK: [2023-11-08 Wed 20:22]
+CLOCK: [2023-11-09 Thu 07:53]--[2023-11-09 Thu 08:06] =>  0:13
+CLOCK: [2023-11-08 Wed 22:27]--[2023-11-08 Wed 23:09] =>  0:42
+CLOCK: [2023-11-08 Wed 22:16]--[2023-11-08 Wed 22:18] =>  0:02
+CLOCK: [2023-11-08 Wed 21:25]--[2023-11-08 Wed 21:45] =>  0:20
+CLOCK: [2023-11-08 Wed 20:22]--[2023-11-08 Wed 20:48] =>  0:26
 CLOCK: [2023-11-08 Wed 20:08]--[2023-11-08 Wed 20:17] =>  0:09
 CLOCK: [2023-11-08 Wed 19:25]--[2023-11-08 Wed 20:03] =>  0:38
 CLOCK: [2023-11-08 Wed 18:29]--[2023-11-08 Wed 19:15] =>  0:46
@@ -42,8 +46,21 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] add to config
   - [X] deploy on key3d.surge.sh
   - [X] write emails
-- [ ] [#C] Add Backend [0/2]
-  - [ ] Decide Deno or Rust
+- [-] [#C] Add Backend [1/4]
+  - [X] Decide Deno or Rust, Deno is the winner
+  - [-] SideQuest
+    - [X] PBA Answering Mail
+    - [ ] Going to BMW Production (Day off)
+  - [-] add journey deno deploy [3/4]
+    - [X] add basics
+    - [X] Projects thingies
+    - [X] Organ Thingies
+    - [ ] connect to db
+      - [ ] kv
+      - [ ] dynamoDB
+      - [ ] FaunaDB
+      - [ ] Firebase
+      - [ ] Postgres
   - [ ] Add some sort of Backend API just in case
 - [-] [#A] Add Smart Contract [11/12]
   - [X] intilaise foundry
