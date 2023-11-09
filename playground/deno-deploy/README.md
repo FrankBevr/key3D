@@ -119,3 +119,20 @@ Full Websites
 - under settings add variable
 - simple key value
 - Existing DENO\_REGION and DENO\_DEPLOYMENT\_ID
+
+### Organisations
+
+- Organsiation for collabartions
+- All member have the same privileges
+- create one
+- then add member
+- If necessary remove member
+
+### Application loggin
+
+- there is a console API,
+- logs panel provide an overview
+- logs are streamed
+- logs are not presistens
+- log message are max 2kb size
+- everything else gets trimmed
