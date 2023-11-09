@@ -98,3 +98,24 @@ Full Websites
 - there is a thingie about pricing
 
 ### Deployments
+
+- deployment is a snapshot
+- deployments are immutable after deployed
+- custom domains avialabe
+- branch domains supported
+- prdocution vs preview `{project_name}-{deployment_id}.deno.dev`
+- either preview or production
+- `deployctl deploy --prod --project=helloworld main.ts`
+
+### Custom Domains
+
+- Via the dashboar
+- have to click buttons and insert thingies
+- dns will be updated
+- TLS certificate can be provied
+
+### Enviorment varial
+
+- under settings add variable
+- simple key value
+- Existing DENO\_REGION and DENO\_DEPLOYMENT\_ID
