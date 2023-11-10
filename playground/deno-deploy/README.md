@@ -136,3 +136,21 @@ Full Websites
 - logs are not presistens
 - log message are max 2kb size
 - everything else gets trimmed
+
+### Database Deno KV
+
+- `deno run -A --unstable my_kv_code.ts`
+- with Deno itsself, sqllite as bakcned
+- kv is consitency
+- its external consistency
+  - serializablitity, one after the other
+  - linearizability, if wrote then read update imidetilty thats nice
+- if necessary use of "eventual"
+- if eventual frankfurt get 7ms 🤤
+- distributeded quest, its avaialbe as it seems
+- availabe outside of deno deploy
+- `const kv = await Deno.openKv("https://api.deno.com/databases/<database-id>/connect",);`
+- data discturbution is there
+- 6 centeres 3 regions.
+- if commit, min 2 mutation on 2 datacetners, commit under 10 secs
+- then something about rpo and rto
