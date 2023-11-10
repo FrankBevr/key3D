@@ -1,29 +1,73 @@
+/***********
+ * IMPORTS *
+ **********/
 import { Application, Router } from "./deps.ts";
+import { postgres } from "./deps.ts";
+import { Product } from "./types.ts";
 
-interface Product {
-  id: string;
-  name: string;
-  description: string;
+/******************
+ * DATABASE SETUP *
+ *****************/
+// Local Postgres
+const databaseUrl = "postgres://postgres:new_password@localhost:5432/key3d";
+const pool = new postgres.Pool(databaseUrl, 3, true);
+
+const connection = await pool.connect();
+try {
+  // Create the table
+  await connection.queryObject`
+    CREATE TABLE IF NOT EXISTS products (
+      id SERIAL PRIMARY KEY,
+      name TEXT NOT NULL,
+      description TEXT NOT NULL
+    )
+  `;
+
+  // Insert mockup data
+  await connection.queryObject`
+    INSERT INTO products (name, description) VALUES
+    ('Product 1', 'This is product 1'),
+    ('Product 2', 'This is product 2'),
+    ('Product 3', 'This is product 3')
+  `;
+} finally {
+  // Release the connection back into the pool
+  connection.release();
 }
 
+/**************
+ * DATA SETUP *
+ *************/
 const products = new Map<string, Product>();
-products.set("1", {
-  id: "1",
-  name: "Product 1",
-  description: "This is product 1",
-});
 
+// Fetch data from the database
+const result = await connection.queryObject<Product>`
+  SELECT * FROM products
+`;
+
+// Populate the products map with the fetched data
+for (const product of result.rows) {
+  products.set(product.id, product);
+}
+
+/************
+ * API SETUP *
+ ************/
 const router = new Router();
 router
   .get("/", (context) => {
     context.response.body = "Hello world!";
   })
-  .get("/product", (context) => {
+  .get("/products", (context) => {
     context.response.body = Array.from(products.values());
   })
   .get("/product/:id", (context) => {
-    if (products.has(context?.params?.id)) {
-      context.response.body = products.get(context.params.id);
+    const id = Number(context.params?.id);
+    if (id && products.has(id)) {
+      context.response.body = products.get(id);
+    } else {
+      context.response.status = 404;
+      context.response.body = { msg: "Product not found" };
     }
   })
   .post("/product", async (context) => {
