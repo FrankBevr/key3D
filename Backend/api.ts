@@ -15,21 +15,16 @@ const pool = new postgres.Pool(databaseUrl, 3, true);
 const connection = await pool.connect();
 try {
   // Create the table
-  await connection.queryObject`
-    CREATE TABLE IF NOT EXISTS products (
-      id SERIAL PRIMARY KEY,
-      name TEXT NOT NULL,
-      description TEXT NOT NULL
-    )
-  `;
+  const createProductsTableScript = await Deno.readTextFile(
+    "./migrations/create_products_table.sql",
+  );
+  await connection.queryObject(createProductsTableScript);
 
   // Insert mockup data
-  await connection.queryObject`
-    INSERT INTO products (name, description) VALUES
-    ('Product 1', 'This is product 1'),
-    ('Product 2', 'This is product 2'),
-    ('Product 3', 'This is product 3')
-  `;
+  const insert_productsScript = await Deno.readTextFile(
+    "./migrations/insert_products.sql",
+  );
+  await connection.queryObject(insert_productsScript);
 } finally {
   // Release the connection back into the pool
   connection.release();
