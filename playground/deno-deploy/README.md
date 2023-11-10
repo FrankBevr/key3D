@@ -241,3 +241,16 @@ Full Websites
   });
   ```
 - deploy via `deployctl deploy --project=<project-name> <application-file-name>`
+
+### Database Postgres
+
+- Use Supabase to get a postgres url
+- Use psql as well for local
+- Install psql
+- login
+- reset password
+- Add table
+- Insert Data in Table
+- Display table via deno
+
+- next up: up to deno deplo
