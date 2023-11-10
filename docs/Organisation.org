@@ -3,6 +3,8 @@
 * Organisation
 ** TODO [#A] Basic Setup [2/7]
 :LOGBOOK:
+CLOCK: [2023-11-10 Fri 08:32]
+CLOCK: [2023-11-09 Thu 09:44]--[2023-11-09 Thu 09:59] =>  0:15
 CLOCK: [2023-11-09 Thu 07:53]--[2023-11-09 Thu 08:06] =>  0:13
 CLOCK: [2023-11-08 Wed 22:27]--[2023-11-08 Wed 23:09] =>  0:42
 CLOCK: [2023-11-08 Wed 22:16]--[2023-11-08 Wed 22:18] =>  0:02
@@ -46,17 +48,18 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] add to config
   - [X] deploy on key3d.surge.sh
   - [X] write emails
-- [-] [#C] Add Backend [1/4]
+- [-] [#C] Add Backend [2/4]
   - [X] Decide Deno or Rust, Deno is the winner
-  - [-] SideQuest
+  - [X] SideQuest
     - [X] PBA Answering Mail
-    - [ ] Going to BMW Production (Day off)
+    - [X] Going to BMW Production (Day off)
+    - [ ] Write Thursday.md
   - [-] add journey deno deploy [3/4]
     - [X] add basics
     - [X] Projects thingies
     - [X] Organ Thingies
-    - [ ] connect to db
-      - [ ] kv
+    - [-] connect to db
+      - [X] kv
       - [ ] dynamoDB
       - [ ] FaunaDB
       - [ ] Firebase

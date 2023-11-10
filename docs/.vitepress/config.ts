@@ -1,12 +1,13 @@
-import { taskLists } from '@hedgedoc/markdown-it-plugins'
+import { taskLists } from "@hedgedoc/markdown-it-plugins";
 
 export default {
-  head: [['link', { rel: 'icon', href: '/assets/favicon.ico' }]],
+  head: [["link", { rel: "icon", href: "/assets/favicon.ico" }]],
   title: "Key3d",
   description: "3D Ramen DAO",
   themeConfig: {
     nav: [{ text: "Home", link: "/" }],
-    logo: "https://img.freepik.com/free-vector/ramen-noodle-egg-meat-with-chopstick-cartoon_138676-2543.jpg",
+    logo:
+      "https://img.freepik.com/free-vector/ramen-noodle-egg-meat-with-chopstick-cartoon_138676-2543.jpg",
     sidebar: [
       {
         text: "Journey",
@@ -14,6 +15,7 @@ export default {
           { text: "Monday", link: "/Journey/Monday" },
           { text: "Tuesday", link: "/Journey/Tuesday" },
           { text: "Wednesday", link: "/Journey/Wednesday" },
+          { text: "Thursday", link: "/Journey/Thursday" },
         ],
       },
       {
@@ -25,8 +27,14 @@ export default {
           { text: "Software Design 3", link: "/Notes/Software-Design-3" },
           { text: "Frank Ideation", link: "/Notes/FrankIdeation" },
           { text: "Meeting Notes Astar", link: "/Notes/Meeting-Astar-Us" },
-          { text: "Meeting Notes Frank Josiah", link: "Notes/Meeting-JoFr-AusGer" },
-          { text: "Meeting Notes Frank Josiah 2", link: "Notes/Meeting-JoFr-MadLis" },
+          {
+            text: "Meeting Notes Frank Josiah",
+            link: "Notes/Meeting-JoFr-AusGer",
+          },
+          {
+            text: "Meeting Notes Frank Josiah 2",
+            link: "Notes/Meeting-JoFr-MadLis",
+          },
           { text: "Web3 Foundation Workshop", link: "Notes/web3foundation" },
           { text: "Braindump Figma", link: "Notes/Todo-Figma" },
           { text: "Random", link: "Notes/notes" },
@@ -40,7 +48,7 @@ export default {
   },
   markdown: {
     config: (md) => {
-      md.use(taskLists, { enabled: true, label: true, lineNumber: true })
-    }
-  }
-}
+      md.use(taskLists, { enabled: true, label: true, lineNumber: true });
+    },
+  },
+};
