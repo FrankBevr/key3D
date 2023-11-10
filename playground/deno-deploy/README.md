@@ -154,3 +154,90 @@ Full Websites
 - 6 centeres 3 regions.
 - if commit, min 2 mutation on 2 datacetners, commit under 10 secs
 - then something about rpo and rto
+
+### Database DynamoDB
+
+- Its a Amazon noSql DB
+- Gater some credential
+- create the project in deno deploy
+- add .env value
+- Write code to connects
+  ```ts
+  import {
+    DynamoDBClient,
+    GetItemCommand,
+    PutItemCommand,
+  } from "https://cdn.skypack.dev/@aws-sdk/client-dynamodb?dts";
+  ```
+- Add client `const client = new ApiFactory().makeNew(DynamoDB);`
+- deploy via `deployctl deploy --project=<project-name> <application-file-name>`
+
+### Database FaunaDB
+
+- Its a graphQL DB
+- get credentials
+- create a project on deno deploy
+- Write code to connect
+  ```ts
+  import query from "https://esm.sh/faunadb@4.7.1";
+  import Client from "https://esm.sh/faunadb@4.7.1";
+
+  // Grab the secret from the environment.
+  const token = Deno.env.get("FAUNA_SECRET");
+  if (!token) {
+    throw new Error("environment variable FAUNA_SECRET not set");
+  }
+
+  var client = new Client.Client({
+    secret: token,
+    // Adjust the endpoint if you are using Region Groups
+    endpoint: "https://db.fauna.com/",
+  });
+  // HEAD
+  client.query(query.ToDate("2018-06-06"));
+  ```
+- deploy via `deployctl deploy --project=<project-name> <application-file-name>`
+
+### Connect To Firebase
+
+- the google cloud
+- get credentials
+- add fibaseConfig
+  ```json
+  var firebaseConfig = {
+     apiKey: "APIKEY",
+     authDomain: "example-12345.firebaseapp.com",
+     projectId: "example-12345",
+     storageBucket: "example-12345.appspot.com",
+     messagingSenderId: "1234567890",
+     appId: "APPID",
+  };
+  ```
+- create deno depoy project
+- add .env project
+- connect via
+  ```ts
+  import "https://deno.land/x/xhr@0.1.1/mod.ts";
+  import { installGlobals } from "https://deno.land/x/virtualstorage@0.1.0/mod.ts";
+  installGlobals();
+  ...
+  app.use(async (ctx, next) => {
+  const signedInUid = ctx.cookies.get("LOGGED_IN_UID");
+  const signedInUser = signedInUid != null ? users.get(signedInUid) : undefined;
+  if (!signedInUid || !signedInUser || !auth.currentUser) {
+    const creds = await auth.signInWithEmailAndPassword(
+      Deno.env.get("FIREBASE_USERNAME"),
+      Deno.env.get("FIREBASE_PASSWORD"),
+    );
+    const { user } = creds;
+    if (user) {
+      users.set(user.uid, user);
+      ctx.cookies.set("LOGGED_IN_UID", user.uid);
+    } else if (signedInUser && signedInUid.uid !== auth.currentUser?.uid) {
+      await auth.updateCurrentUser(signedInUser);
+    }
+  }
+  return next();
+  });
+  ```
+- deploy via `deployctl deploy --project=<project-name> <application-file-name>`
