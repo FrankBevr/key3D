@@ -254,3 +254,12 @@ Full Websites
 - Display table via deno
 
 - next up: up to deno deplo
+- run via deployctl `deploy --project=<project-name> <application-file-name>`
+- outcome
+  ```
+  deployctl deploy --project=<project-name> <application-file-name>
+  ```
+- add api
+- use hoppscotch to write get and post thingies
+- get something from it
+- write bash script for easy test
