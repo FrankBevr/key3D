@@ -1,9 +1,22 @@
 #+COLUMNS: %50ITEM(Task) %7TODO %14CLOCKSUM(Clock)
 
 * Organisation
-** TODO [#A] Basic Setup [2/7]
+** TODO [#A] Basic Setup [3/7]
 :LOGBOOK:
-CLOCK: [2023-11-10 Fri 08:32]
+CLOCK: [2023-11-11 Sat 01:05]
+CLOCK: [2023-11-11 Sat 00:51]--[2023-11-11 Sat 01:05] =>  0:14
+CLOCK: [2023-11-10 Fri 23:06]--[2023-11-11 Sat 00:47] =>  1:41
+CLOCK: [2023-11-10 Fri 21:42]--[2023-11-10 Fri 22:48] =>  1:06
+CLOCK: [2023-11-10 Fri 21:20]--[2023-11-10 Fri 21:26] =>  0:06
+CLOCK: [2023-11-10 Fri 20:45]--[2023-11-10 Fri 21:16] =>  0:31
+CLOCK: [2023-11-10 Fri 19:36]--[2023-11-10 Fri 20:13] =>  0:37
+CLOCK: [2023-11-10 Fri 11:52]--[2023-11-10 Fri 12:38] =>  0:46
+CLOCK: [2023-11-10 Fri 11:40]--[2023-11-10 Fri 11:47] =>  0:07
+CLOCK: [2023-11-10 Fri 10:53]--[2023-11-10 Fri 11:24] =>  0:31
+CLOCK: [2023-11-10 Fri 10:24]--[2023-11-10 Fri 10:44] =>  0:20
+CLOCK: [2023-11-10 Fri 09:22]--[2023-11-10 Fri 10:17] =>  0:55
+CLOCK: [2023-11-10 Fri 08:39]--[2023-11-10 Fri 09:20] =>  0:41
+CLOCK: [2023-11-10 Fri 08:32]--[2023-11-10 Fri 08:39] =>  0:07
 CLOCK: [2023-11-09 Thu 09:44]--[2023-11-09 Thu 09:59] =>  0:15
 CLOCK: [2023-11-09 Thu 07:53]--[2023-11-09 Thu 08:06] =>  0:13
 CLOCK: [2023-11-08 Wed 22:27]--[2023-11-08 Wed 23:09] =>  0:42
@@ -48,23 +61,52 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] add to config
   - [X] deploy on key3d.surge.sh
   - [X] write emails
-- [-] [#C] Add Backend [2/4]
+- [X] [#C] Add Backend [4/4]
   - [X] Decide Deno or Rust, Deno is the winner
   - [X] SideQuest
     - [X] PBA Answering Mail
     - [X] Going to BMW Production (Day off)
-    - [ ] Write Thursday.md
-  - [-] add journey deno deploy [3/4]
+    - [X] Write Thursday.md
+  - [X] add journey deno deploy [5/5]
     - [X] add basics
     - [X] Projects thingies
     - [X] Organ Thingies
-    - [-] connect to db
+    - [X] connect to db [5/5]
       - [X] kv
-      - [ ] dynamoDB
-      - [ ] FaunaDB
-      - [ ] Firebase
-      - [ ] Postgres
-  - [ ] Add some sort of Backend API just in case
+      - [X] dynamoDB
+      - [X] FaunaDB
+      - [X] Firebase
+      - [X] Postgres [7/7]
+        - [X] set up local psql
+        - [X] add table
+        - [X] insert data
+        - [X] display local data
+        - [X] rewrite it to deno deploy
+        - [X] make an api
+        - [X] write bash script to test it
+    - [X] SideQuest[1/1]
+      - [X] check exam
+  - [X] Add some sort of Backend API just in case
+    - [X] serve stupid json via Deno
+      - [X] add oak
+      - [X] serve something
+      - [X] add routes
+      - [X] change to products
+      - [X] add post
+      - [X] safe in memory
+    - [X] add postgress [9/9]
+      - [X] connect
+      - [X] get value
+      - [X] on init set values
+      - [X] get value by id
+      - [X] add update value
+      - [X] add migrations
+      - [X] reshuffle project
+      - [X] add more migrations
+      - [X] complete crud ops
+    - [X] update .gitattriubes to detect .ts
+    - [X] add minimal working tests
+    - [X] write Friday.md
 - [-] [#A] Add Smart Contract [11/12]
   - [X] intilaise foundry
   - [X] init playground foundry [23/23]
