@@ -1,0 +1,23 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/Counter.sol": {
+      "content": "//SPDX-License-Identifier: MIT\npragma solidity ^0.8.19;\n\ncontract Counter {\nuint256 currentCount = 0;\n\n    function increment() public {\n        currentCount = currentCount + 1;\n    }\n\n    function retrieve() public view returns (uint256){\n        return currentCount;\n    }\n}\n"
+    }
+  },
+  "settings": {
+    "optimizer": { "enabled": false, "runs": 200 },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata"
+        ],
+        "": ["ast"]
+      }
+    }
+  }
+}
