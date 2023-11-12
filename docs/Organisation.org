@@ -3,7 +3,11 @@
 * Organisation
 ** TODO [#A] Basic Setup [3/7]
 :LOGBOOK:
-CLOCK: [2023-11-11 Sat 01:05]
+CLOCK: [2023-11-12 Sun 09:48]--[2023-11-12 Sun 10:16] =>  0:28
+CLOCK: [2023-11-11 Sat 17:35]--[2023-11-11 Sat 17:58] =>  0:23
+CLOCK: [2023-11-11 Sat 10:21]--[2023-11-11 Sat 11:26] =>  1:05
+CLOCK: [2023-11-11 Sat 08:33]--[2023-11-11 Sat 09:13] =>  0:40
+CLOCK: [2023-11-11 Sat 01:05]--[2023-11-11 Sat 01:08] =>  0:03
 CLOCK: [2023-11-11 Sat 00:51]--[2023-11-11 Sat 01:05] =>  0:14
 CLOCK: [2023-11-10 Fri 23:06]--[2023-11-11 Sat 00:47] =>  1:41
 CLOCK: [2023-11-10 Fri 21:42]--[2023-11-10 Fri 22:48] =>  1:06
@@ -107,7 +111,7 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
     - [X] update .gitattriubes to detect .ts
     - [X] add minimal working tests
     - [X] write Friday.md
-- [-] [#A] Add Smart Contract [11/12]
+- [-] [#A] Add Smart Contract [12/13]
   - [X] intilaise foundry
   - [X] init playground foundry [23/23]
     - [X] add Basics
@@ -158,11 +162,21 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] Deploy it sucessfully somewhere
   - [X] Deploy it on Sepolia and verify via etherscan
     - [[https://sepolia.etherscan.io/address/0x5aa0b5ee61195075df5626244533838d32a097ba#code][Contract Verification]]
-  - [-] Deploy it on zk Astar [1/3]
+  - [-] Deploy it on zk Astar [6/7]
     - [X] Wrote [[https://ethereum.stackexchange.com/questions/156282/foundry-astar-zkevm-deployment][Ethereum Stack Exchange Issue]]
-    - [ ] verify it
-    - [ ] Get something running on zkEVM
+    - [X] check rpc urls
+    - [X] initialise hardhat playground
+      - [X] deploy on Katana
+      - [X] flatten it correctly
+      - [X] use json input to verify
+      - [X] verify it on Katana
+      - [X] verify it
+    - [X] Get something running on zkEVM
+    - [X] do mails
+    - [ ] try foundry again
+    - [X] write Saturday.md
   - [X] Decide to Stick to Sepolia
+  - [X] redeploy docs to key3d.surge.sh
 - [ ] [#A] Rough Frontend [0/12]
   - [ ] Display something on page
   - [ ] Add ethers
