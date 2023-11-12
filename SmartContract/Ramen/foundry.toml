@@ -7,8 +7,10 @@ remappings = [
     "@openzeppelin/=lib/openzeppelin-contracts/",
 ]
 solc = "0.8.23"
+
 [rpc_endpoints]
 goerli = "${GOERLI_RPC_URL}"
+katana = "${KATANA_RPC_URL}"
 
 [etherscan]
 goerli = { key = "${ETHERSCAN_API_KEY}" }
