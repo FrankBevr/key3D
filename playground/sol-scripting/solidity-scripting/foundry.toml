@@ -4,7 +4,7 @@ out = "out"
 libs = ["lib"]
 remappings = [
     "@solmate/=lib/solmate/src/",
-    "@openzeppelin-contracts/=lib/openzeppelin-contracts/",
+    "@openzeppelin/=lib/openzeppelin-contracts/",
 ]
 solc = "0.8.23"
 [rpc_endpoints]
