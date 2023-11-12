@@ -13,3 +13,6 @@
 [submodule "playground/sol-scripting/solidity-scripting/lib/solmate"]
 	path = playground/sol-scripting/solidity-scripting/lib/solmate
 	url = https://github.com/transmissions11/solmate
+[submodule "playground/sol-scripting/solidity-scripting/lib/openzeppelin-contracts"]
+	path = playground/sol-scripting/solidity-scripting/lib/openzeppelin-contracts
+	url = https://github.com/Openzeppelin/openzeppelin-contracts
