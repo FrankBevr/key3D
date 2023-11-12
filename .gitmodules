@@ -10,3 +10,6 @@
 [submodule "playground/sol-scripting/solidity-scripting/lib/forge-std"]
 	path = playground/sol-scripting/solidity-scripting/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "playground/sol-scripting/solidity-scripting/lib/solmate"]
+	path = playground/sol-scripting/solidity-scripting/lib/solmate
+	url = https://github.com/transmissions11/solmate
