@@ -1,8 +1,10 @@
 #+COLUMNS: %50ITEM(Task) %7TODO %14CLOCKSUM(Clock)
 
 * Organisation
-** TODO [#A] Basic Setup [3/7]
+** TODO [#A] Basic Setup [4/7]
 :LOGBOOK:
+CLOCK: [2023-11-12 Sun 18:42]--[2023-11-12 Sun 19:24] =>  0:42
+CLOCK: [2023-11-12 Sun 17:05]--[2023-11-12 Sun 18:17] =>  1:12
 CLOCK: [2023-11-12 Sun 09:48]--[2023-11-12 Sun 10:16] =>  0:28
 CLOCK: [2023-11-11 Sat 17:35]--[2023-11-11 Sat 17:58] =>  0:23
 CLOCK: [2023-11-11 Sat 10:21]--[2023-11-11 Sat 11:26] =>  1:05
@@ -111,7 +113,7 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
     - [X] update .gitattriubes to detect .ts
     - [X] add minimal working tests
     - [X] write Friday.md
-- [-] [#A] Add Smart Contract [12/13]
+- [X] [#A] Add Smart Contract [13/13]
   - [X] intilaise foundry
   - [X] init playground foundry [23/23]
     - [X] add Basics
@@ -162,7 +164,7 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] Deploy it sucessfully somewhere
   - [X] Deploy it on Sepolia and verify via etherscan
     - [[https://sepolia.etherscan.io/address/0x5aa0b5ee61195075df5626244533838d32a097ba#code][Contract Verification]]
-  - [-] Deploy it on zk Astar [6/7]
+  - [X] Deploy it on zk Astar [11/11]
     - [X] Wrote [[https://ethereum.stackexchange.com/questions/156282/foundry-astar-zkevm-deployment][Ethereum Stack Exchange Issue]]
     - [X] check rpc urls
     - [X] initialise hardhat playground
@@ -173,7 +175,11 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
       - [X] verify it
     - [X] Get something running on zkEVM
     - [X] do mails
-    - [ ] try foundry again
+    - [X] try foundry again
+    - [X] learn solidity scripting for deployment
+    - [X] transfer sol scripting to RamenContract
+    - [X] make it work
+    - [X] deeeploooyed, yikes
     - [X] write Saturday.md
   - [X] Decide to Stick to Sepolia
   - [X] redeploy docs to key3d.surge.sh
