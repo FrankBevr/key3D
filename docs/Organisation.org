@@ -164,6 +164,8 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] Deploy it sucessfully somewhere
   - [X] Deploy it on Sepolia and verify via etherscan
     - [[https://sepolia.etherscan.io/address/0x5aa0b5ee61195075df5626244533838d32a097ba#code][Contract Verification]]
+  - [X] Decide to Stick to Sepolia
+  - [X] redeploy docs to key3d.surge.sh
   - [X] Deploy it on zk Astar [11/11]
     - [X] Wrote [[https://ethereum.stackexchange.com/questions/156282/foundry-astar-zkevm-deployment][Ethereum Stack Exchange Issue]]
     - [X] check rpc urls
@@ -181,9 +183,9 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
     - [X] make it work
     - [X] deeeploooyed, yikes
     - [X] write Saturday.md
-  - [X] Decide to Stick to Sepolia
-  - [X] redeploy docs to key3d.surge.sh
-- [ ] [#A] Rough Frontend [0/12]
+- [-] [#A] Rough Frontend [1/13]
+  - [X] call about cross chain project
+  - [ ] write Sunday.md
   - [ ] Display something on page
   - [ ] Add ethers
   - [ ] Connect to a chain via ethers
