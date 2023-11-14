@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <!-- <script type="module" src="/FetchDataFromContract.js"></script> -->
+    <div class="flex">
+    <div id="ethersRecapApp" class="border"></div>
+    <div id="readContractApp" class="border"></div>
+    <div id="writeContractApp" class="border"></div>
+    <div>
+    <script type="module" src="EthersRecap.js"></script>
+    <script type="module" src="FetchDataFromContract.js"></script>
     <script type="module" src="WriteDataToContract.js"></script>
   </body>
 </html>

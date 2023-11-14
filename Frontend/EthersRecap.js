@@ -1,4 +1,3 @@
-import "./style.css";
 import { ethers, parseEther } from "ethers";
 
 async function fetchBlockchainData() {
@@ -94,10 +93,10 @@ async function fetchBlockchainData() {
   setInterval(updateDynamicBlockNumber, 5000);
 }
 
-const appContainer = document.querySelector("#app");
+const appContainer = document.querySelector("#ethersRecapApp");
 appContainer.innerHTML = `
     <div>
-      <h1>Hello Key3D</h1>
+      <h1>Hello Ethers Recap</h1>
       <div id="staticData"></div>
       <div id="dynamicData"></div>
     </div>

@@ -1,4 +1,3 @@
-import './style.css';
 import { ethers } from "ethers";
 import { abi } from "./abi.js";
 
@@ -19,12 +18,12 @@ async function fetchDataFromContract() {
   console.log(numberValue);
 
   // Find the app container in the HTML
-  const appContainer = document.querySelector("#app");
+  const appContainer = document.querySelector("#readContractApp");
 
   // Update the app container to display the fetched value
   appContainer.innerHTML = `
       <div>
-        <h1>Hello Key3D</h1>
+        <h1>Hello fetchDataFromContract</h1>
         <h3>Get Number</h3>
         <div id="dynamicData">${numberValue}</div>
       </div>

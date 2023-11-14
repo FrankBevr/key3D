@@ -4,9 +4,6 @@ import { ethers } from "ethers";
 // Import ABI from external file
 import { abi } from "./abi.js";
 
-// Import CSS styles
-import "./style.css";
-
 // Function to write data to the contract
 async function writeDataToContract() {
   // Create provider using browser provider and window.ethereum
@@ -51,10 +48,10 @@ async function writeDataToContract() {
   };
 
   // Create HTML structure
-  const appContainer = document.querySelector("#app");
+  const appContainer = document.querySelector("#writeContractApp");
   appContainer.innerHTML = `
     <div>
-      <h1>Hello Key3D</h1>
+      <h1>Hello writeDataToContract</h1>
       <h3>Increment Number</h3>
       <button id="incrementButton">Increment Me</button>
       <div id="olderNumber">The current number is <strong>${oldNumber}</strong></div>
