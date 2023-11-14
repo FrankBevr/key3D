@@ -3,6 +3,11 @@
 * Organisation
 ** TODO [#A] Basic Setup [4/7]
 :LOGBOOK:
+CLOCK: [2023-11-14 Tue 07:06]--[2023-11-14 Tue 07:35] =>  0:29
+CLOCK: [2023-11-13 Mon 16:55]--[2023-11-13 Mon 17:49] =>  0:54
+CLOCK: [2023-11-13 Mon 09:58]--[2023-11-13 Mon 10:38] =>  0:40
+CLOCK: [2023-11-13 Mon 09:11]--[2023-11-13 Mon 09:40] =>  0:29
+CLOCK: [2023-11-13 Mon 07:03]--[2023-11-13 Mon 07:34] =>  0:31
 CLOCK: [2023-11-12 Sun 18:42]--[2023-11-12 Sun 19:24] =>  0:42
 CLOCK: [2023-11-12 Sun 17:05]--[2023-11-12 Sun 18:17] =>  1:12
 CLOCK: [2023-11-12 Sun 09:48]--[2023-11-12 Sun 10:16] =>  0:28
@@ -183,15 +188,19 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
     - [X] make it work
     - [X] deeeploooyed, yikes
     - [X] write Saturday.md
-- [-] [#A] Rough Frontend [1/13]
+- [-] [#A] Rough Frontend [12/18]
   - [X] call about cross chain project
-  - [ ] write Sunday.md
-  - [ ] Display something on page
-  - [ ] Add ethers
-  - [ ] Connect to a chain via ethers
-  - [ ] Get Blocknumber via ethers
-  - [ ] Display Blocknumber
-  - [ ] Display Blocknumber subscribely
+  - [X] write Sunday.md
+  - [X] Display something on page
+  - [X] Connect to a chain via ethers
+  - [X] Add ethers
+  - [X] get Address
+  - [X] send transaction from a to b
+  - [X] Get Blocknumber via ethers
+  - [X] call with Accelator
+  - [X] Display Blocknumber
+  - [X] Display Blocknumber subscribely
+  - [X] Write Monday.md
   - [ ] Get Something from Contract
   - [ ] Display something from Contract
   - [ ] Call smart contract via ehterscan?!?
