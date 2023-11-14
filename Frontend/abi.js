@@ -1,13 +1,42 @@
 export const abi = [
-  // Some details about the token
-  "function number() view returns (uint256)",
-
-  // Get the account balance
-  "function setNumber(uint256 newNumber) public",
-
-  // Send some of your tokens to someone else
-  "function increment() public",
-
-  // Send some of your tokens to someone else
-  "function increment2() public",
-];
+  {
+    "inputs": [],
+    "name": "increment",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "increment2",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "number",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "newNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "setNumber",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
