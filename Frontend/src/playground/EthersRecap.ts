@@ -1,10 +1,17 @@
 import { ethers, parseEther } from "ethers";
 
+declare global {
+  interface Window {
+    ethereum?: any
+  }
+}
+
 async function fetchBlockchainData() {
   // Connect to Ethereum Provider using the browser's Ethereum object
-  const provider = new ethers.BrowserProvider(window.ethereum);
+  const provider = new ethers.BrowserProvider(window.ethereum.provider);
   console.log(provider);
   console.log("--------------------");
+
 
   // Get Metamask accounts
   const accounts = await provider.send("eth_requestAccounts", []);
@@ -78,12 +85,12 @@ async function fetchBlockchainData() {
     <h2>Receipt</h2>
     <div>${receipt}</div>
   `;
-  document.getElementById("staticData").appendChild(staticDataContainer);
+  document.getElementById("staticData")!.appendChild(staticDataContainer);
 
   // Function to update the block number
   async function updateDynamicBlockNumber() {
     const currentBlockNumber = await provider.getBlockNumber();
-    const dynamicDataContainer = document.getElementById("dynamicData");
+    const dynamicDataContainer = document.getElementById("dynamicData")!;
     dynamicDataContainer.innerHTML = `
     <h2>Dynamic Block Number</h2>
     <div>${currentBlockNumber}</div>
@@ -93,7 +100,7 @@ async function fetchBlockchainData() {
   setInterval(updateDynamicBlockNumber, 5000);
 }
 
-const appContainer = document.querySelector("#ethersRecapApp");
+const appContainer = document.querySelector("#ethersRecapApp")!;
 appContainer.innerHTML = `
     <div>
       <h1>Hello Ethers Recap</h1>

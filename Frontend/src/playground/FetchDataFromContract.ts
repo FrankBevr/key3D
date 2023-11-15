@@ -18,7 +18,7 @@ async function fetchDataFromContract() {
   console.log(numberValue);
 
   // Find the app container in the HTML
-  const appContainer = document.querySelector("#readContractApp");
+  const appContainer = document.querySelector("#readContractApp")!;
 
   // Update the app container to display the fetched value
   appContainer.innerHTML = `

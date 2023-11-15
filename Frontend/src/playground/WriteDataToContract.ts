@@ -40,15 +40,15 @@ async function writeDataToContract() {
 
   // Function to update displayed numbers
   const updateDisplayedNumbers = () => {
-    const olderNumberDiv = document.querySelector("#olderNumber");
+    const olderNumberDiv = document.querySelector("#olderNumber")!;
     olderNumberDiv.textContent = `The older number was ${oldNumber}`;
 
-    const newNumberDiv = document.querySelector("#newNumber");
+    const newNumberDiv = document.querySelector("#newNumber")!;
     newNumberDiv.textContent = `The new number is ${newNumber}`;
   };
 
   // Create HTML structure
-  const appContainer = document.querySelector("#writeContractApp");
+  const appContainer = document.querySelector("#writeContractApp")!;
   appContainer.innerHTML = `
     <div>
       <h1>Hello writeDataToContract</h1>
@@ -60,7 +60,7 @@ async function writeDataToContract() {
   `;
 
   // Add event listener to increment button
-  document.getElementById("incrementButton").addEventListener("click", incrementNumber);
+  document.getElementById("incrementButton")!.addEventListener("click", incrementNumber);
 }
 
 // Call the writeDataToContract function
