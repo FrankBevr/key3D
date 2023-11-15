@@ -1,8 +1,17 @@
 #+COLUMNS: %50ITEM(Task) %7TODO %14CLOCKSUM(Clock)
 
 * Organisation
-** TODO [#A] Basic Setup [4/7]
+** DONE [#A] Basic Setup [7/7]
 :LOGBOOK:
+CLOCK: [2023-11-15 Wed 08:25]--[2023-11-15 Wed 08:28] =>  0:03
+CLOCK: [2023-11-14 Tue 21:26]--[2023-11-14 Tue 21:41] =>  0:15
+CLOCK: [2023-11-14 Tue 19:32]--[2023-11-14 Tue 20:30] =>  0:58
+CLOCK: [2023-11-14 Tue 18:01]--[2023-11-14 Tue 19:15] =>  1:14
+CLOCK: [2023-11-14 Tue 11:06]--[2023-11-14 Tue 11:23] =>  0:17
+CLOCK: [2023-11-14 Tue 10:01]--[2023-11-14 Tue 10:57] =>  0:56
+CLOCK: [2023-11-14 Tue 08:25]--[2023-11-14 Tue 09:25] =>  1:00
+CLOCK: [2023-11-14 Tue 08:15]--[2023-11-14 Tue 08:19] =>  0:04
+CLOCK: [2023-11-14 Tue 07:37]--[2023-11-14 Tue 07:53] =>  0:16
 CLOCK: [2023-11-14 Tue 07:06]--[2023-11-14 Tue 07:35] =>  0:29
 CLOCK: [2023-11-13 Mon 16:55]--[2023-11-13 Mon 17:49] =>  0:54
 CLOCK: [2023-11-13 Mon 09:58]--[2023-11-13 Mon 10:38] =>  0:40
@@ -188,7 +197,7 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
     - [X] make it work
     - [X] deeeploooyed, yikes
     - [X] write Saturday.md
-- [-] [#A] Rough Frontend [12/18]
+- [X] [#A] Rough Frontend [20/20]
   - [X] call about cross chain project
   - [X] write Sunday.md
   - [X] Display something on page
@@ -201,12 +210,32 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] Display Blocknumber
   - [X] Display Blocknumber subscribely
   - [X] Write Monday.md
-  - [ ] Get Something from Contract
-  - [ ] Display something from Contract
-  - [ ] Call smart contract via ehterscan?!?
-  - [ ] Call Smart Contract via ethers
-  - [ ] Add button, call on Button Click
-  - [ ] Declare vicotry for now
-- [ ] [#C] Get a 3D Model of Ramen from somwhere[0/0]
-- [ ] [#C] UI/UX [0/1]
-  - [ ] Check Figma, add cleanup if necessary
+  - [X] setup ghc in nvim
+  - [X] Get Something from Contract
+  - [X] Display something from Contract
+  - [X] Call smart contract via ehterscan?!?
+  - [X] Call Smart Contract via ethers
+  - [X] troublshoot ethers version 6
+    - [X] See DevCon Talk to get it
+    - [X] follow v6 deep dive from moonbeam, canceld
+    - [X] ethers creator wrote back and solved it in 10secons
+  - [X] Add button, call on Button Click
+  - [X] Declare vicotry for now
+- [X] [#C] Get a 3D Model of Ramen from somwhere[0/0]
+- [X] [#C] UI/UX [2/2]
+  - [X] Check Figma, add cleanup if necessary
+  - [X] no clean up, too timeintensive
+
+** TODO [#A] Get necessary running [0/3]
+:LOGBOOK:
+CLOCK: [2023-11-15 Wed 08:29]
+:END:
+- [ ] Smart Contract
+  - [ ] create Ramen Contract (rough)
+- [ ] Frontend
+  - [ ] display hologram
+  - [ ] make one button for Ramen Smart Contract
+- [ ] UiUx
+  - [ ] Design Menu Card
+- [ ] Docs
+  - [ ] Write Tuesday.md
