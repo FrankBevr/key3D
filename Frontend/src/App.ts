@@ -1,8 +1,12 @@
 import { ref, onMounted } from 'vue'
 import * as THREE from 'three'
+import { MindARThree } from 'mindar';
+import type { MindARThree } from './type';
 export default {
   setup() {
     const containerRef = ref<HTMLElement | null>(null)
+    const startRef = ref<HTMLElement | null>(null)
+    const stopRef = ref<HTMLElement | null>(null)
     const message = ref('Hello World!')
 
     onMounted(() => {
@@ -10,42 +14,49 @@ export default {
       container.style.height = "500px"
       container.style.width = "500px"
 
-      // Create a Three.js scene
-      const scene = new THREE.Scene()
+      const stopBtn = stopRef.value!
+      const startBtn = startRef.value!
 
-      // Create a camera
-      const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000)
-      camera.position.z = 5
-
-      // Create a renderer
-      const renderer = new THREE.WebGLRenderer()
-      renderer.setSize(container.clientWidth, container.clientHeight)
-      container.appendChild(renderer.domElement)
-
-      // Create a cube
-      const geometry = new THREE.BoxGeometry()
-      const material = new THREE.MeshNormalMaterial()
-      const cube = new THREE.Mesh(geometry, material)
-      scene.add(cube)
-
-      // Animation loop
-      function animate() {
-        requestAnimationFrame(animate)
-        cube.rotation.x += 0.01
-        cube.rotation.y += 0.01
-        renderer.render(scene, camera)
+      const mindarThree = new MindARThree({
+        container,
+        imageTargetSrc: "https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.2/examples/image-tracking/assets/card-example/card.mind",
+        uiLoading: "no",
+        uiScanning: "no",
+        uiError: "no",
+      });
+      const { renderer, scene, camera } = mindarThree;
+      const anchor = mindarThree.addAnchor(0);
+      const geometry = new THREE.PlaneGeometry(1, 0.55);
+      const material = new THREE.MeshBasicMaterial({ color: 0x00ffff, transparent: true, opacity: 0.5 });
+      const plane = new THREE.Mesh(geometry, material);
+      anchor.group.add(plane);
+      const start = async () => {
+        await mindarThree.start();
+        renderer.setAnimationLoop(() => {
+          renderer.render(scene, camera);
+        });
       }
-      animate()
+      startBtn.addEventListener("click", () => {
+        start();
+      })
+      stopBtn.addEventListener("click", () => {
+        mindarThree.stop();
+        mindarThree.renderer.setAnimationLoop(null);
+      })
     })
 
     return {
       message,
-      containerRef
+      containerRef,
+      stopRef,
+      startRef
     }
   },
   template: `
     <h2>Hello Vue App</h2>
     <p>{{ message }}</p>
     <div ref="containerRef"></div>
+    <button ref="stopRef">Stop</button>
+    <button ref="startRef">Start</button>
   `
 }

@@ -9,7 +9,8 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      'vue': 'vue/dist/vue.esm-bundler.js'
+      'vue': 'vue/dist/vue.esm-bundler.js',
+      'mindar': 'mind-ar/dist/mindar-image-three.prod.js'
     }
   },
 });
