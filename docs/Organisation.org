@@ -226,16 +226,36 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] Check Figma, add cleanup if necessary
   - [X] no clean up, too timeintensive
 
-** TODO [#A] Get necessary running [0/3]
+** TODO [#A] Get necessary running [3/4]
 :LOGBOOK:
-CLOCK: [2023-11-15 Wed 08:29]
+CLOCK: [2023-11-15 Wed 18:24]--[2023-11-15 Wed 19:28] =>  1:04
+CLOCK: [2023-11-15 Wed 17:38]--[2023-11-15 Wed 17:54] =>  0:16
+CLOCK: [2023-11-15 Wed 17:16]--[2023-11-15 Wed 17:36] =>  0:20
+CLOCK: [2023-11-15 Wed 16:48]--[2023-11-15 Wed 16:59] =>  0:11
+CLOCK: [2023-11-15 Wed 15:12]--[2023-11-15 Wed 16:43] =>  1:31
+CLOCK: [2023-11-15 Wed 11:32]--[2023-11-15 Wed 13:09] =>  1:37
+CLOCK: [2023-11-15 Wed 10:35]--[2023-11-15 Wed 11:24] =>  0:49
+CLOCK: [2023-11-15 Wed 09:38]--[2023-11-15 Wed 10:04] =>  0:26
+CLOCK: [2023-11-15 Wed 08:29]--[2023-11-15 Wed 09:30] =>  1:01
 :END:
-- [ ] Smart Contract
-  - [ ] create Ramen Contract (rough)
-- [ ] Frontend
+- [X] Smart Contract [2/2]
+  - [X] create Ramen Contract (rough)
+  - [X] Add some more functionialities
+- [-] Frontend [4/6]
+  - [X] refactor files
+  - [X] add vue
+  - [X] display something via vue
+  - [X] particpate at encode judging
   - [ ] display hologram
   - [ ] make one button for Ramen Smart Contract
-- [ ] UiUx
-  - [ ] Design Menu Card
-- [ ] Docs
-  - [ ] Write Tuesday.md
+- [X] UiUx [8/8]
+  - [X] Refactor AR Page
+  - [X] Design Menu Card
+  - [X] make Camera Overlay Component
+  - [X] add Typo
+  - [X] add more
+  - [X] sepearte File in MVP Refactor and Design Sketch
+  - [X] create Export of MVP Refacto
+  - [X] add it to github
+- [X] Docs
+  - [X] Write Tuesday.md
