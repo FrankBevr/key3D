@@ -33,7 +33,7 @@ export default {
       const anchor = mindarThree.addAnchor(0);
 
       const loader = new GLTFLoader();
-      loader.load('/asahi_beer_bottle/scene.gltf ', function(gltf: any) {
+      loader.load('/scene.gltf ', function(gltf: any) {
         const model = gltf.scene;
         // Traverse the model to modify the materials
         model.traverse(function(node: any) {
