@@ -3,6 +3,6 @@ export default {
     label: String
   },
   template: `
-    <button>{{label || 'No props passed yet'}}</button>
+     <button :style="{ color: 'red' }">{{label || 'No props passed yet'}}</button>
   `,
 }

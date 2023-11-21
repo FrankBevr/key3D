@@ -1,6 +1,6 @@
 import ARView from "./views/ARView";
 import ButtonComp from "./components/ButtonComp.ts";
-import { ref } from "vue";
+import { ref, watch } from "vue";
 export default {
   components: {
     ARView,
@@ -8,11 +8,13 @@ export default {
   },
   setup() {
     const label = ref('Hello From Parent')
+
     return {
       label
     }
   },
   template: `
+    <ARView/>
     <ButtonComp :label="label"></ButtonComp>
   `,
 };
