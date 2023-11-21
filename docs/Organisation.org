@@ -268,12 +268,19 @@ CLOCK: [2023-11-15 Wed 08:29]--[2023-11-15 Wed 09:30] =>  1:01
 - [X] Docs
   - [X] Write Tuesday.md
 
-** TODO [#A] Last 48 hours [3/3]
+** TODO [#A] Last 48 hours [4/5]
 :LOGBOOK:
-CLOCK: [2023-11-21 Tue 08:52]
+CLOCK: [2023-11-21 Tue 18:28]--[2023-11-21 Tue 19:28] =>  1:00
+CLOCK: [2023-11-21 Tue 17:06]--[2023-11-21 Tue 18:22] =>  1:16
+CLOCK: [2023-11-21 Tue 16:06]--[2023-11-21 Tue 17:06] =>  1:00
+CLOCK: [2023-11-21 Tue 09:07]--[2023-11-21 Tue 12:16] =>  3:09
+CLOCK: [2023-11-21 Tue 08:52]--[2023-11-21 Tue 09:02] =>  0:10
 CLOCK: [2023-11-21 Tue 07:30]--[2023-11-21 Tue 08:46] =>  1:16
 :END:
 - [X] write Wednesday-2.md
 - [X] write Monday-3.md
 - [X] write Tuesday-3.md
+- [X] split in components
+- [ ] positioned camera somehow
+- [ ] write quick summary
 - [ ] make one button for Ramen Smart Contract
