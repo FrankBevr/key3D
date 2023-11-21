@@ -22,7 +22,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20'
-
+          
+      - name: Install
+        run: npm install
+        working-directory: Frontend
+        
       - name: Build
         run: npm run build
         working-directory: Frontend
