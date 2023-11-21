@@ -16,3 +16,6 @@
 [submodule "playground/sol-scripting/solidity-scripting/lib/openzeppelin-contracts"]
 	path = playground/sol-scripting/solidity-scripting/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "playground/Demo"]
+	path = playground/Demo
+	url = https://github.com/hiukim/mind-ar-js.git
