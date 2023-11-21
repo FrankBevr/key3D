@@ -226,8 +226,11 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] Check Figma, add cleanup if necessary
   - [X] no clean up, too timeintensive
 
-** TODO [#A] Get necessary running [3/4]
+** TODO [#A] Get necessary running [4/4]
 :LOGBOOK:
+CLOCK: [2023-11-20 Mon 15:59]--[2023-11-20 Mon 16:23] =>  0:24
+CLOCK: [2023-11-20 Mon 14:38]--[2023-11-20 Mon 15:12] =>  0:34
+CLOCK: [2023-11-20 Mon 09:31]--[2023-11-20 Mon 11:33] =>  2:02
 CLOCK: [2023-11-15 Wed 18:24]--[2023-11-15 Wed 19:28] =>  1:04
 CLOCK: [2023-11-15 Wed 17:38]--[2023-11-15 Wed 17:54] =>  0:16
 CLOCK: [2023-11-15 Wed 17:16]--[2023-11-15 Wed 17:36] =>  0:20
@@ -241,13 +244,18 @@ CLOCK: [2023-11-15 Wed 08:29]--[2023-11-15 Wed 09:30] =>  1:01
 - [X] Smart Contract [2/2]
   - [X] create Ramen Contract (rough)
   - [X] Add some more functionialities
-- [-] Frontend [4/6]
+- [X] Frontend [8/8]
   - [X] refactor files
   - [X] add vue
   - [X] display something via vue
   - [X] particpate at encode judging
-  - [ ] display hologram
-  - [ ] make one button for Ramen Smart Contract
+  - [X] display hologram
+  - [X] make demo for pitch video, add demo folder
+    - [X] downloaded 3D Files.
+    - [X] transform japanese Menu Card into .mind file
+    - [X] try online deployment.
+  - [X] PBA Interview Call
+  - [X] make one button for Ramen Smart Contract(pushed forward)
 - [X] UiUx [8/8]
   - [X] Refactor AR Page
   - [X] Design Menu Card
@@ -259,3 +267,13 @@ CLOCK: [2023-11-15 Wed 08:29]--[2023-11-15 Wed 09:30] =>  1:01
   - [X] add it to github
 - [X] Docs
   - [X] Write Tuesday.md
+
+** TODO [#A] Last 48 hours [3/3]
+:LOGBOOK:
+CLOCK: [2023-11-21 Tue 08:52]
+CLOCK: [2023-11-21 Tue 07:30]--[2023-11-21 Tue 08:46] =>  1:16
+:END:
+- [X] write Wednesday-2.md
+- [X] write Monday-3.md
+- [X] write Tuesday-3.md
+- [ ] make one button for Ramen Smart Contract
