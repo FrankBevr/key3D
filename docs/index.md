@@ -1,15 +1,15 @@
 ---
 layout: home
 features:
-  - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+  - icon: 👓
+    title: Web3AR
+    details: 3D Ramen on your Table in your Wallet.
   - icon: 🍜
-    title: Another cool feature
-    details: Lorem ipsum...
-  - icon: 💲
-    title: Another cool feature
-    details: Lorem ipsum...
+    title: People love Ramen
+    details: Buy Ramen, eat Ramen, join RamenDAO
+  - icon: 📝
+    title: Automonous Accounting
+    details: Simplify your financial operations
 navbar: true
 sidebar: true 
 hero:
@@ -22,7 +22,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /Notes/Software-Design-3
+      link: /Intro/Overview.md
     - theme: alt
       text: View on GitHub
       link: https://github.com/frankbevr/key3d
