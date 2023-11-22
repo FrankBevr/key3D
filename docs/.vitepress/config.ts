@@ -10,6 +10,12 @@ export default {
       "https://img.freepik.com/free-vector/ramen-noodle-egg-meat-with-chopstick-cartoon_138676-2543.jpg",
     sidebar: [
       {
+        text: "Intro",
+        items: [
+          { text: "Josiah", link: "/Journey/Monday_Mockup" },
+        ],
+      },
+      {
         text: "Journey",
         items: [
           { text: "Monday", link: "/Journey/Monday" },
