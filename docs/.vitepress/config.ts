@@ -35,6 +35,13 @@ export default {
         ],
       },
       {
+        text: "Outro",
+        items: [
+          { text: "Outlook", link: "/Outro/Outlook" },
+          { text: "Thanks", link: "/Outro/Thanks" },
+        ],
+      },
+      {
         text: "Notes",
         items: [
           { text: "Launch Event", link: "/Notes/FrankNotes-OpeningEvent" },
