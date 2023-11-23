@@ -30,6 +30,8 @@ export default {
           { text: "Tuesday-2", link: "/Journey/Tuesday-2" },
           { text: "Wednesday-2", link: "/Journey/Wednesday-2" },
           { text: "Monday-3", link: "/Journey/Monday-3" },
+          { text: "Tuesday-3", link: "/Journey/Tuesday-3" },
+          { text: "Wednesday-3", link: "/Journey/Wednesday-3" },
           { text: "Frank Summary", link: "/Journey/Frank-Summary" },
           { text: "Josiah Summary", link: "/Journey/Josiah-Summary" },
         ],

@@ -268,8 +268,14 @@ CLOCK: [2023-11-15 Wed 08:29]--[2023-11-15 Wed 09:30] =>  1:01
 - [X] Docs
   - [X] Write Tuesday.md
 
-** TODO [#A] Last 48 hours [4/5]
+** TODO [#A] Last 48 hours [13/16]
 :LOGBOOK:
+CLOCK: [2023-11-23 Thu 04:30]--[2023-11-23 Thu 04:47] =>  0:17
+CLOCK: [2023-11-22 Wed 16:14]--[2023-11-22 Wed 19:04] =>  2:50
+CLOCK: [2023-11-22 Wed 14:48]--[2023-11-22 Wed 15:56] =>  1:08
+CLOCK: [2023-11-22 Wed 09:56]--[2023-11-22 Wed 10:55] =>  0:59
+CLOCK: [2023-11-22 Wed 06:22]--[2023-11-22 Wed 09:15] =>  2:53
+CLOCK: [2023-11-21 Tue 20:32]--[2023-11-21 Tue 21:28] =>  0:56
 CLOCK: [2023-11-21 Tue 18:28]--[2023-11-21 Tue 19:28] =>  1:00
 CLOCK: [2023-11-21 Tue 17:06]--[2023-11-21 Tue 18:22] =>  1:16
 CLOCK: [2023-11-21 Tue 16:06]--[2023-11-21 Tue 17:06] =>  1:00
@@ -281,6 +287,13 @@ CLOCK: [2023-11-21 Tue 07:30]--[2023-11-21 Tue 08:46] =>  1:16
 - [X] write Monday-3.md
 - [X] write Tuesday-3.md
 - [X] split in components
+- [X] create .mind targets
+- [X] fix css issues
+- [X] get something running
+- [X] deploy to surge
+- [X] get somehow deployment working yeay
+- [X] rearange docs in call.
+- [X] write Wednesday-3.md
+- [X] help tom out
 - [ ] positioned camera somehow
-- [ ] write quick summary
 - [ ] make one button for Ramen Smart Contract
