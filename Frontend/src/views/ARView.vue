@@ -7,6 +7,9 @@ import { MindARThree } from "mindar";
 //@ts-ignore
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
+//@ts-ignore
+import targetsMind from "../assets/targets.mind";
+
 const startRef = ref<HTMLElement | null>(null);
 const stopRef = ref<HTMLElement | null>(null);
 const containerRef = ref<HTMLElement | null>(null);
@@ -23,7 +26,7 @@ onMounted(() => {
 
   const mindarThree = new MindARThree({
     container,
-    imageTargetSrc: "/beer.mind",
+    imageTargetSrc: "/card.mind",
     uiLoading: "no",
     uiScanning: "no",
     uiError: "no",

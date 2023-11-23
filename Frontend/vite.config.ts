@@ -13,4 +13,9 @@ export default defineConfig({
       'mindar': 'mind-ar/dist/mindar-image-three.prod.js'
     }
   },
+  assetsInclude: ['**/*.mind'],
+  appType: 'spa',
+  build: {
+    minify: false
+  }
 });
