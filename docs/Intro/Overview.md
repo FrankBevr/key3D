@@ -16,6 +16,8 @@
 |                                | [Wednesday-2](/Journey/Wednesday-2.md)       |                            |
 |                                | [Monday-3](/Journey/Monday-3.md)             |                            |
 |                                | [Tuesday-3](/Journey/Tuesday-3.md)           |                            |
+|                                | [Wednesday-3](/Journey/Wednesday-3.md)       |                            |
+|                                | [Thursday-3](/Journey/Thursday-3.md)         |                            |
 |                                | [Josiah Summary](/Journey/Josiah-Summary.md) |                            |
 |                                | [Frank Summary](/Journey/Frank-Summary.md)   |                            |
 
