@@ -105852,12 +105852,12 @@ function assignExtrasToUserData(object, gltfDef) {
     }
   }
 }
-function addMorphTargets(geometry, targets, parser) {
+function addMorphTargets(geometry, targets2, parser) {
   let hasMorphPosition = false;
   let hasMorphNormal = false;
   let hasMorphColor = false;
-  for (let i6 = 0, il2 = targets.length; i6 < il2; i6++) {
-    const target = targets[i6];
+  for (let i6 = 0, il2 = targets2.length; i6 < il2; i6++) {
+    const target = targets2[i6];
     if (target.POSITION !== void 0)
       hasMorphPosition = true;
     if (target.NORMAL !== void 0)
@@ -105872,8 +105872,8 @@ function addMorphTargets(geometry, targets, parser) {
   const pendingPositionAccessors = [];
   const pendingNormalAccessors = [];
   const pendingColorAccessors = [];
-  for (let i6 = 0, il2 = targets.length; i6 < il2; i6++) {
-    const target = targets[i6];
+  for (let i6 = 0, il2 = targets2.length; i6 < il2; i6++) {
+    const target = targets2[i6];
     if (hasMorphPosition) {
       const pendingAccessor = target.POSITION !== void 0 ? parser.getDependency("accessor", target.POSITION) : geometry.attributes.position;
       pendingPositionAccessors.push(pendingAccessor);
@@ -106838,14 +106838,14 @@ class GLTFParser {
       const inputAccessors = dependencies[1];
       const outputAccessors = dependencies[2];
       const samplers = dependencies[3];
-      const targets = dependencies[4];
+      const targets2 = dependencies[4];
       const tracks = [];
       for (let i6 = 0, il2 = nodes.length; i6 < il2; i6++) {
         const node = nodes[i6];
         const inputAccessor = inputAccessors[i6];
         const outputAccessor = outputAccessors[i6];
         const sampler = samplers[i6];
-        const target = targets[i6];
+        const target = targets2[i6];
         if (node === void 0)
           continue;
         if (node.updateMatrix) {
@@ -107133,12 +107133,12 @@ function computeBounds(geometry, primitiveDef, parser) {
   } else {
     return;
   }
-  const targets = primitiveDef.targets;
-  if (targets !== void 0) {
+  const targets2 = primitiveDef.targets;
+  if (targets2 !== void 0) {
     const maxDisplacement = new Vector3();
     const vector = new Vector3();
-    for (let i6 = 0, il2 = targets.length; i6 < il2; i6++) {
-      const target = targets[i6];
+    for (let i6 = 0, il2 = targets2.length; i6 < il2; i6++) {
+      const target = targets2[i6];
       if (target.POSITION !== void 0) {
         const accessor = parser.json.accessors[target.POSITION];
         const min = accessor.min;
@@ -107194,26 +107194,39 @@ function addPrimitiveAttributes(geometry, primitiveDef, parser) {
     return primitiveDef.targets !== void 0 ? addMorphTargets(geometry, primitiveDef.targets, parser) : geometry;
   });
 }
+const targets = "/targets.mind";
+const photar = "/photar.mind";
 const _sfc_main$2 = /* @__PURE__ */ defineComponent({
   __name: "ARView",
   setup(__props) {
     const startRef = ref(null);
     const stopRef = ref(null);
     const containerRef = ref(null);
+    const containerRef2 = ref(null);
     const styleRef = ref({ height: "800px" });
+    const styleRef2 = ref({ height: "300px" });
     onMounted(() => {
       const container = containerRef.value;
+      const container2 = containerRef2.value;
       const stopBtn = stopRef.value;
       const startBtn = startRef.value;
       stopBtn.style.zIndex = "5";
       startBtn.style.zIndex = "5";
       const mindarThree = new Tb({
         container,
-        imageTargetSrc: "/card.mind",
+        imageTargetSrc: targets,
         uiLoading: "no",
         uiScanning: "no",
         uiError: "no"
       });
+      new Tb({
+        container2,
+        imageTargetSrc: photar,
+        uiLoading: "no",
+        uiScanning: "no",
+        uiError: "no"
+      });
+      console.log(photar);
       const { renderer: renderer2, scene, camera } = mindarThree;
       const anchor = mindarThree.addAnchor(0);
       const loader = new GLTFLoader();
@@ -107276,6 +107289,11 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
           style: normalizeStyle(styleRef.value),
           ref_key: "containerRef",
           ref: containerRef
+        }, null, 4),
+        createBaseVNode("div", {
+          style: normalizeStyle(styleRef2.value),
+          ref_key: "containerRef2",
+          ref: containerRef2
         }, null, 4)
       ], 64);
     };
