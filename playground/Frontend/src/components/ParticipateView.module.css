@@ -1,0 +1,13 @@
+.participateViewFlex {
+  gap: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+.pushDown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  height: 100%;
+}

@@ -1,0 +1,6 @@
+.walletViewFlex {
+  gap: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}

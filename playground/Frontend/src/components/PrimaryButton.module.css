@@ -1,0 +1,52 @@
+.default {
+  display: inline-flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: var(--white-100);
+  border: none;
+  cursor: pointer;
+  height: 60px;
+}
+
+.default:hover {
+  background: var(--white-90);
+}
+
+.default:active {
+  background: var(--white-90);
+  box-shadow: 6px 6px 6px 0px rgba(34, 22, 43, 0.25) inset;
+}
+
+.innerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.leftItem,
+.rightItem {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  max-height: 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.label {
+  color: var(--black-100);
+  font-family: Unbounded;
+  font-size: 24px;
+  /* text-align: center; */
+  /* max-height: 24px; */
+  font-weight: 200;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}

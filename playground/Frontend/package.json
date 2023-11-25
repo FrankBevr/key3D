@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "dependencies": {
+    "@azns/resolver-core": "^1.6.0",
+    "@azns/resolver-react": "^1.6.0",
+    "mind-ar": "^1.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.150.1",
+    "useink": "^1.14.1",
+    "zustand": "^4.4.5"
+  },
+  "scripts": {
+    "start": "npx vite"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "vite": "^4.5.0"
+  }
+}
