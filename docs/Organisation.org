@@ -226,7 +226,7 @@ CLOCK: [2023-11-06 Mon 21:25]--[2023-11-06 Mon 21:34] =>  0:09
   - [X] Check Figma, add cleanup if necessary
   - [X] no clean up, too timeintensive
 
-** TODO [#A] Get necessary running [4/4]
+** DONE [#A] Get necessary running [4/4]
 :LOGBOOK:
 CLOCK: [2023-11-20 Mon 15:59]--[2023-11-20 Mon 16:23] =>  0:24
 CLOCK: [2023-11-20 Mon 14:38]--[2023-11-20 Mon 15:12] =>  0:34
@@ -268,8 +268,19 @@ CLOCK: [2023-11-15 Wed 08:29]--[2023-11-15 Wed 09:30] =>  1:01
 - [X] Docs
   - [X] Write Tuesday.md
 
-** TODO [#A] Last 48 hours [13/16]
+** TODO [#A] Last 4 days [19/22]
 :LOGBOOK:
+CLOCK: [2023-11-25 Sat 05:30]--[2023-11-25 Sat 06:32] =>  1:02
+CLOCK: [2023-11-24 Fri 16:21]--[2023-11-24 Fri 17:18] =>  0:57
+CLOCK: [2023-11-24 Fri 15:21]--[2023-11-24 Fri 16:21] =>  1:00
+CLOCK: [2023-11-24 Fri 14:08]--[2023-11-24 Fri 15:16] =>  1:08
+CLOCK: [2023-11-24 Fri 06:32]--[2023-11-24 Fri 07:11] =>  0:39
+CLOCK: [2023-11-24 Fri 06:28]--[2023-11-24 Fri 06:30] =>  0:02
+CLOCK: [2023-11-23 Thu 20:12]--[2023-11-23 Thu 20:21] =>  0:09
+CLOCK: [2023-11-23 Thu 16:45]--[2023-11-23 Thu 18:35] =>  1:50
+CLOCK: [2023-11-23 Thu 14:03]--[2023-11-23 Thu 15:05] =>  1:02
+CLOCK: [2023-11-23 Thu 07:18]--[2023-11-23 Thu 08:26] =>  1:08
+CLOCK: [2023-11-23 Thu 04:54]--[2023-11-23 Thu 06:10] =>  1:16
 CLOCK: [2023-11-23 Thu 04:30]--[2023-11-23 Thu 04:47] =>  0:17
 CLOCK: [2023-11-22 Wed 16:14]--[2023-11-22 Wed 19:04] =>  2:50
 CLOCK: [2023-11-22 Wed 14:48]--[2023-11-22 Wed 15:56] =>  1:08
@@ -295,5 +306,22 @@ CLOCK: [2023-11-21 Tue 07:30]--[2023-11-21 Tue 08:46] =>  1:16
 - [X] rearange docs in call.
 - [X] write Wednesday-3.md
 - [X] help tom out
-- [ ] positioned camera somehow
+- [X] answer mail
+- [X] add FrankSummary
+- [X] add Thursday-3.md
+- [X] add Friday-3.md
+- [X] write Thanks.md
+- [X] update README.md
+- [X] positioned camera somehow
+- [-] recompile .mind targets
+  - [ ] rename image
+  - [-] fix compile errors
+    - [X] read the articles
+    - [X] change mindar version
+    - [X] ...
+    - [ ] get a life crisis
 - [ ] make one button for Ramen Smart Contract
+- [ ] arange layout
+  - [ ] add black box bottom
+  - [ ] add ar view top
+  - [ ] add button 2 button in black box

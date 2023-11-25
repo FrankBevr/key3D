@@ -4,7 +4,7 @@
 
 | The Beginning                  | The Journey                                  | The Future                 |
 | :----------------------------- | :------------------------------------------- | :------------------------- |
-| [Overview](/Intro/Overview.md) | [Monday](/Journey/Monday.md)                 | [Outro](/Outro/Outlook.md) |
+| [Overview](/Intro/Overview.md) | [Monday](/Journey/Monday.md)                 | [Outro](/Outro/Thanks.md) |
 | [Idea](/Intro/Idea.md)         | [Tuesday](/Journey/Tuesday.md)               |                            |
 |                                | [Wednesday](/Journey/Wednesday.md)           |                            |
 |                                | [Thursday](/Journey/Thursday.md)             |                            |
@@ -18,6 +18,7 @@
 |                                | [Tuesday-3](/Journey/Tuesday-3.md)           |                            |
 |                                | [Wednesday-3](/Journey/Wednesday-3.md)       |                            |
 |                                | [Thursday-3](/Journey/Thursday-3.md)         |                            |
+|                                | [Friday-3](/Journey/Friday-3.md)         |                            |
 |                                | [Josiah Summary](/Journey/Josiah-Summary.md) |                            |
 |                                | [Frank Summary](/Journey/Frank-Summary.md)   |                            |
 

@@ -33,6 +33,7 @@ export default {
           { text: "Tuesday-3", link: "/Journey/Tuesday-3" },
           { text: "Wednesday-3", link: "/Journey/Wednesday-3" },
           { text: "Thursday-3", link: "/Journey/Thursday-3" },
+          { text: "Friday-3", link: "/Journey/Friday-3" },
           { text: "Frank Summary", link: "/Journey/Frank-Summary" },
           { text: "Josiah Summary", link: "/Journey/Josiah-Summary" },
         ],
@@ -40,7 +41,7 @@ export default {
       {
         text: "Outro",
         items: [
-          { text: "Outlook", link: "/Outro/Outlook" },
+          /* { text: "Outlook", link: "/Outro/Outlook" },*/
           { text: "Thanks", link: "/Outro/Thanks" },
         ],
       },
