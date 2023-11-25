@@ -268,7 +268,7 @@ CLOCK: [2023-11-15 Wed 08:29]--[2023-11-15 Wed 09:30] =>  1:01
 - [X] Docs
   - [X] Write Tuesday.md
 
-** TODO [#A] Last 4 days [19/22]
+** TODO [#A] Last 4 days [22/22]
 :LOGBOOK:
 CLOCK: [2023-11-25 Sat 05:30]--[2023-11-25 Sat 06:32] =>  1:02
 CLOCK: [2023-11-24 Fri 16:21]--[2023-11-24 Fri 17:18] =>  0:57
@@ -313,6 +313,30 @@ CLOCK: [2023-11-21 Tue 07:30]--[2023-11-21 Tue 08:46] =>  1:16
 - [X] write Thanks.md
 - [X] update README.md
 - [X] positioned camera somehow
+- [X] recompile .mind targets(Port to next section)
+  - [X] rename image
+  - [X] fix compile errors
+    - [X] read the articles
+    - [X] change mindar version
+    - [X] ...
+    - [X] get a life crisis
+- [X] make one button for Ramen Smart Contract (port to next section)
+- [X] arange layout (port to next section)
+  - [X] add black box bottom
+  - [X] add ar view top
+  - [X] add button 2 button in black box
+
+
+** TODO [#C After Submission Deadline [3/6]
+:LOGBOOK:
+CLOCK: [2023-11-25 Sat 11:20]--[2023-11-25 Sat 12:06] =>  0:46
+CLOCK: [2023-11-25 Sat 10:25]--[2023-11-25 Sat 11:07] =>  0:42
+CLOCK: [2023-11-25 Sat 08:35]--[2023-11-25 Sat 09:50] =>  1:15
+:END:
+- [X] Port issues from previous section
+- [X] add README.md to SmartContract
+- [X] update README.md to UiUx
+- [ ] update README.md in Backend
 - [-] recompile .mind targets
   - [ ] rename image
   - [-] fix compile errors

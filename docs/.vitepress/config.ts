@@ -65,6 +65,7 @@ export default {
           { text: "Web3 Foundation Workshop", link: "Notes/web3foundation" },
           { text: "Braindump Figma", link: "Notes/Todo-Figma" },
           { text: "Random", link: "Notes/notes" },
+          /*<CONTRIUBTION>*/
         ],
       },
     ],
