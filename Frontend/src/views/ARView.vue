@@ -8,15 +8,21 @@ import { MindARThree } from "mindar";
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 //@ts-ignore
-import targetsMind from "../assets/targets.mind";
+import targets from '/targets.mind'
+
+//@ts-ignore
+import photar from '/photar.mind'
 
 const startRef = ref<HTMLElement | null>(null);
 const stopRef = ref<HTMLElement | null>(null);
 const containerRef = ref<HTMLElement | null>(null);
+const containerRef2 = ref<HTMLElement | null>(null);
 const styleRef = ref({ height: "800px" });
+const styleRef2 = ref({ height: "300px" });
 
 onMounted(() => {
   const container = containerRef.value!;
+  const container2 = containerRef2.value!;
   const stopBtn = stopRef.value!;
   const startBtn = startRef.value!;
 
@@ -26,11 +32,20 @@ onMounted(() => {
 
   const mindarThree = new MindARThree({
     container,
-    imageTargetSrc: "/card.mind",
+    imageTargetSrc: targets,
     uiLoading: "no",
     uiScanning: "no",
     uiError: "no",
   });
+  //@ts-ignore
+  const mundo = new MindARThree({
+    container2,
+    imageTargetSrc: photar,
+    uiLoading: "no",
+    uiScanning: "no",
+    uiError: "no",
+  });
+  console.log(photar)
 
   const { renderer, scene, camera } = mindarThree;
   const anchor = mindarThree.addAnchor(0);
@@ -101,4 +116,5 @@ onMounted(() => {
   <button ref="stopRef">Stop</button>
   <button ref="startRef">Start</button>
   <div :style="styleRef" ref="containerRef"></div>
+  <div :style="styleRef2" ref="containerRef2"></div>
 </template>
