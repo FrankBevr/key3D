@@ -8,7 +8,7 @@
     <br />
     <a href="https://www.figma.com/file/qRxZ8cGgMzSzkXVlJCWT7r/Untitled?type=design&node-id=0%3A1&mode=design&t=DcRb7pW8QcXjCKaM-1" name="Figma">Figma</a>
     ·
-    <a href="https://www.veed.io/view/92440012-a395-46d5-b8b5-3ea5cba41642?panel=share">Video</a>
+    <a href="https://www.youtube.com/watch?v=hG8W9gf47bg">Video</a>
     ·
     <a href="https://github.com/FrankBevr/Key3D">Code</a>
     ·
@@ -16,9 +16,12 @@
   </p>
 </div>
 
+> ⚠️ See state @ sumission deadline  
+> `git checkout deadline`
+
 ### Video
 
-<a href="https://www.veed.io/view/92440012-a395-46d5-b8b5-3ea5cba41642?panel=share">
+<a href="https://www.youtube.com/watch?v=hG8W9gf47bg">
 <img src="./screenshot.png" width="500" height="300"></img>
 </a> 
 
@@ -33,7 +36,7 @@
 - Skretch out `./SmartContract`, `./Backend`
 - Frontend Section unfinished, desired goal definied in
   [MVP Recfactor](./UiUx/DeAr-JapanHack.pdf)
-- Generate [Video](https://www.veed.io/view/92440012-a395-46d5-b8b5-3ea5cba41642?panel=share)
+- Generate [Video](https://www.youtube.com/watch?v=hG8W9gf47bg)
 
 **More Details**
 
